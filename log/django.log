@@ -135,3 +135,13 @@ D:\GB\HTML CSS\Django\hw1\hw1\settings.py changed, reloading.
 Watching for file changes with StatReloader
 "GET / HTTP/1.1" 200 90
 "GET /about/ HTTP/1.1" 200 84
+"GET /about/ HTTP/1.1" 200 84
+"GET / HTTP/1.1" 200 90
+"GET / HTTP/1.1" 200 90
+"GET / HTTP/1.1" 200 90
+"GET / HTTP/1.1" 200 90
+"GET /about/ HTTP/1.1" 200 84
+Not Found: /cube
+"GET /cube HTTP/1.1" 404 2414
+Not Found: /number
+"GET /number HTTP/1.1" 404 2420
