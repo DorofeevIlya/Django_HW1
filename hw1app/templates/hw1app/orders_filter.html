@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+    <h3>Заказы пользователя {{ user_name }} (id{{ user_id }})</h3>
+
+{% for order in orders %}
+    <h4>Заказ номер {{ order.id }}:</h4>
+    {% for product in order.products.all %}
+        {{ product.title }} - {{ product.quantity }} шт.<br>
+    {% endfor %}
+    <p> Создан: {{ order.date_ordered }}</p>
+{% endfor %}
+
+<h3>Итого товаров в заказах:</h3>
+{% for key, value in total_products.items %}
+    {% for product in products %}
+        {% if product.id == key %}
+            {{ product.name }} - {{ value }} шт.<br>
+        {% endif %}
+    {% endfor %}
+{% endfor %}
+
+
+</body>
+</html>
