@@ -353,3 +353,1201 @@ django.core.exceptions.FieldError: Cannot resolve keyword 'register_date' into f
 D:\GB\HTML CSS\Django\hw1\hw1app\models.py changed, reloading.
 Watching for file changes with StatReloader
 "GET /orders_total/17/week/ HTTP/1.1" 200 246
+Watching for file changes with StatReloader
+"GET /orders_total/17/week/ HTTP/1.1" 200 255
+Watching for file changes with StatReloader
+Not Found: /les3/add_goods
+"GET /les3/add_goods HTTP/1.1" 404 3040
+"GET /add_goods HTTP/1.1" 301 0
+"GET /add_goods/ HTTP/1.1" 200 370
+Watching for file changes with StatReloader
+"GET /add_goods/ HTTP/1.1" 200 370
+"GET /add_goods/ HTTP/1.1" 200 370
+Internal Server Error: /add_goods/
+Traceback (most recent call last):
+  File "D:\GB\HTML CSS\Django\venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "D:\GB\HTML CSS\Django\venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\GB\HTML CSS\Django\hw1\hw1app\views.py", line 54, in add_goods
+    if form.is_valid():
+       ^^^^^^^^^^^^^
+AttributeError: 'Goods' object has no attribute 'is_valid'
+"POST /add_goods/ HTTP/1.1" 500 66341
+D:\GB\HTML CSS\Django\hw1\hw1app\views.py changed, reloading.
+Watching for file changes with StatReloader
+D:\GB\HTML CSS\Django\hw1\hw1app\views.py changed, reloading.
+Watching for file changes with StatReloader
+"GET /add_goods/ HTTP/1.1" 200 1123
+D:\GB\HTML CSS\Django\hw1\hw1app\views.py changed, reloading.
+Watching for file changes with StatReloader
+"GET /add_goods/ HTTP/1.1" 200 1123
+"GET /add_goods/ HTTP/1.1" 200 1123
+Internal Server Error: /add_goods/
+Traceback (most recent call last):
+  File "D:\GB\HTML CSS\Django\venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "D:\GB\HTML CSS\Django\venv\Lib\site-packages\django\core\handlers\base.py", line 204, in _get_response
+    self.check_response(response, callback)
+  File "D:\GB\HTML CSS\Django\venv\Lib\site-packages\django\core\handlers\base.py", line 332, in check_response
+    raise ValueError(
+ValueError: The view hw1app.views.add_goods didn't return an HttpResponse object. It returned None instead.
+"POST /add_goods/ HTTP/1.1" 500 67472
+D:\GB\HTML CSS\Django\hw1\hw1app\views.py changed, reloading.
+Watching for file changes with StatReloader
+"GET /add_goods/ HTTP/1.1" 200 1123
+Internal Server Error: /add_goods/
+Traceback (most recent call last):
+  File "D:\GB\HTML CSS\Django\venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "D:\GB\HTML CSS\Django\venv\Lib\site-packages\django\core\handlers\base.py", line 204, in _get_response
+    self.check_response(response, callback)
+  File "D:\GB\HTML CSS\Django\venv\Lib\site-packages\django\core\handlers\base.py", line 332, in check_response
+    raise ValueError(
+ValueError: The view hw1app.views.add_goods didn't return an HttpResponse object. It returned None instead.
+"POST /add_goods/ HTTP/1.1" 500 67456
+D:\GB\HTML CSS\Django\hw1\hw1app\views.py changed, reloading.
+Watching for file changes with StatReloader
+D:\GB\HTML CSS\Django\hw1\hw1app\views.py changed, reloading.
+Watching for file changes with StatReloader
+D:\GB\HTML CSS\Django\hw1\hw1app\views.py changed, reloading.
+Watching for file changes with StatReloader
+D:\GB\HTML CSS\Django\hw1\hw1app\urls.py changed, reloading.
+Watching for file changes with StatReloader
+D:\GB\HTML CSS\Django\hw1\hw1app\urls.py changed, reloading.
+Watching for file changes with StatReloader
+"GET /select_goods/ HTTP/1.1" 200 683
+Internal Server Error: /select_goods/
+Traceback (most recent call last):
+  File "D:\GB\HTML CSS\Django\venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "D:\GB\HTML CSS\Django\venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\GB\HTML CSS\Django\hw1\hw1app\views.py", line 74, in select_an_action
+    select = form.cleaned_data['Название']
+             ~~~~~~~~~~~~~~~~~^^^^^^^^^^^^
+KeyError: 'Название'
+"POST /select_goods/ HTTP/1.1" 500 66223
+D:\GB\HTML CSS\Django\hw1\hw1app\views.py changed, reloading.
+Watching for file changes with StatReloader
+"GET /select_goods/ HTTP/1.1" 200 683
+Internal Server Error: /select_goods/
+Traceback (most recent call last):
+  File "D:\GB\HTML CSS\Django\venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "D:\GB\HTML CSS\Django\venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\GB\HTML CSS\Django\hw1\hw1app\views.py", line 73, in select_an_action
+    select = form.cleaned_data['Название']
+             ^^^^^^^^^^^^^^^^^
+AttributeError: 'SelectGoods' object has no attribute 'cleaned_data'
+"POST /select_goods/ HTTP/1.1" 500 66373
+D:\GB\HTML CSS\Django\hw1\hw1app\views.py changed, reloading.
+Watching for file changes with StatReloader
+Internal Server Error: /select_goods/
+Traceback (most recent call last):
+  File "D:\GB\HTML CSS\Django\venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "D:\GB\HTML CSS\Django\venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\GB\HTML CSS\Django\hw1\hw1app\views.py", line 73, in select_an_action
+    select = form.cleaned_data['select']
+             ^^^^^^^^^^^^^^^^^
+AttributeError: 'SelectGoods' object has no attribute 'cleaned_data'
+"POST /select_goods/ HTTP/1.1" 500 66353
+"GET /select_goods/ HTTP/1.1" 200 683
+Internal Server Error: /select_goods/
+Traceback (most recent call last):
+  File "D:\GB\HTML CSS\Django\venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "D:\GB\HTML CSS\Django\venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\GB\HTML CSS\Django\hw1\hw1app\views.py", line 73, in select_an_action
+    select = form.cleaned_data['select']
+             ^^^^^^^^^^^^^^^^^
+AttributeError: 'SelectGoods' object has no attribute 'cleaned_data'
+"POST /select_goods/ HTTP/1.1" 500 66353
+D:\GB\HTML CSS\Django\hw1\hw1app\views.py changed, reloading.
+Watching for file changes with StatReloader
+Internal Server Error: /select_goods/
+Traceback (most recent call last):
+  File "D:\GB\HTML CSS\Django\venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "D:\GB\HTML CSS\Django\venv\Lib\site-packages\django\core\handlers\base.py", line 204, in _get_response
+    self.check_response(response, callback)
+  File "D:\GB\HTML CSS\Django\venv\Lib\site-packages\django\core\handlers\base.py", line 332, in check_response
+    raise ValueError(
+ValueError: The view hw1app.views.select_an_action didn't return an HttpResponse object. It returned None instead.
+"POST /select_goods/ HTTP/1.1" 500 67019
+D:\GB\HTML CSS\Django\hw1\hw1app\views.py changed, reloading.
+Watching for file changes with StatReloader
+"GET /select_goods/ HTTP/1.1" 200 683
+Internal Server Error: /select_goods/
+Traceback (most recent call last):
+  File "D:\GB\HTML CSS\Django\venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "D:\GB\HTML CSS\Django\venv\Lib\site-packages\django\core\handlers\base.py", line 204, in _get_response
+    self.check_response(response, callback)
+  File "D:\GB\HTML CSS\Django\venv\Lib\site-packages\django\core\handlers\base.py", line 332, in check_response
+    raise ValueError(
+ValueError: The view hw1app.views.select_an_action didn't return an HttpResponse object. It returned None instead.
+"POST /select_goods/ HTTP/1.1" 500 67019
+D:\GB\HTML CSS\Django\hw1\hw1app\views.py changed, reloading.
+Watching for file changes with StatReloader
+"GET /select_goods/ HTTP/1.1" 200 683
+Internal Server Error: /select_goods/
+Traceback (most recent call last):
+  File "D:\GB\HTML CSS\Django\venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "D:\GB\HTML CSS\Django\venv\Lib\site-packages\django\utils\deprecation.py", line 136, in __call__
+    response = self.process_response(request, response)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\GB\HTML CSS\Django\venv\Lib\site-packages\django\middleware\clickjacking.py", line 27, in process_response
+    if response.get("X-Frame-Options") is not None:
+       ^^^^^^^^^^^^
+AttributeError: 'str' object has no attribute 'get'
+"POST /select_goods/ HTTP/1.1" 500 65464
+Internal Server Error: /select_goods/
+Traceback (most recent call last):
+  File "D:\GB\HTML CSS\Django\venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "D:\GB\HTML CSS\Django\venv\Lib\site-packages\django\utils\deprecation.py", line 136, in __call__
+    response = self.process_response(request, response)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\GB\HTML CSS\Django\venv\Lib\site-packages\django\middleware\clickjacking.py", line 27, in process_response
+    if response.get("X-Frame-Options") is not None:
+       ^^^^^^^^^^^^
+AttributeError: 'str' object has no attribute 'get'
+"POST /select_goods/ HTTP/1.1" 500 65464
+"POST /select_goods/ HTTP/1.1" 200 1521
+"POST /select_goods/ HTTP/1.1" 200 765
+Watching for file changes with StatReloader
+"GET /select_goods/ HTTP/1.1" 200 683
+"POST /select_goods/ HTTP/1.1" 200 1521
+"POST /select_goods/ HTTP/1.1" 200 765
+"POST /select_goods/ HTTP/1.1" 200 1521
+"POST /select_goods/ HTTP/1.1" 200 765
+"GET /add_goods/ HTTP/1.1" 200 1123
+"POST /add_goods/ HTTP/1.1" 200 1263
+"POST /add_goods/ HTTP/1.1" 200 1263
+"POST /add_goods/ HTTP/1.1" 200 1263
+"POST /add_goods/ HTTP/1.1" 200 1263
+"POST /add_goods/ HTTP/1.1" 200 1263
+"POST /add_goods/ HTTP/1.1" 200 1263
+"POST /add_goods/ HTTP/1.1" 200 1263
+"POST /add_goods/ HTTP/1.1" 200 1263
+D:\GB\HTML CSS\Django\hw1\hw1app\forms.py changed, reloading.
+Watching for file changes with StatReloader
+D:\GB\HTML CSS\Django\hw1\hw1app\forms.py changed, reloading.
+Watching for file changes with StatReloader
+D:\GB\HTML CSS\Django\hw1\hw1app\forms.py changed, reloading.
+Watching for file changes with StatReloader
+"GET /add_goods/ HTTP/1.1" 200 1163
+Internal Server Error: /add_goods/
+Traceback (most recent call last):
+  File "D:\GB\HTML CSS\Django\venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "D:\GB\HTML CSS\Django\venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\GB\HTML CSS\Django\hw1\hw1app\views.py", line 57, in add_goods
+    title = form.cleaned_data['Название']
+            ~~~~~~~~~~~~~~~~~^^^^^^^^^^^^
+KeyError: 'Название'
+"POST /add_goods/ HTTP/1.1" 500 66891
+D:\GB\HTML CSS\Django\hw1\hw1app\views.py changed, reloading.
+Watching for file changes with StatReloader
+"GET /add_goods/ HTTP/1.1" 200 1163
+Internal Server Error: /add_goods/
+Traceback (most recent call last):
+  File "D:\GB\HTML CSS\Django\venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "D:\GB\HTML CSS\Django\venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\GB\HTML CSS\Django\hw1\hw1app\views.py", line 62, in add_goods
+    good = Goods(title=title, description=description, price=price, quantity=quantity, date_of_add=date_of_add)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: BaseForm.__init__() got an unexpected keyword argument 'title'
+"POST /add_goods/ HTTP/1.1" 500 68088
+D:\GB\HTML CSS\Django\hw1\hw1app\forms.py changed, reloading.
+Watching for file changes with StatReloader
+D:\GB\HTML CSS\Django\hw1\hw1app\views.py changed, reloading.
+Watching for file changes with StatReloader
+"GET /add_goods/ HTTP/1.1" 200 1163
+Internal Server Error: /add_goods/
+Traceback (most recent call last):
+  File "D:\GB\HTML CSS\Django\venv\Lib\site-packages\django\db\backends\utils.py", line 105, in _execute
+    return self.cursor.execute(sql, params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\GB\HTML CSS\Django\venv\Lib\site-packages\django\db\backends\sqlite3\base.py", line 329, in execute
+    return super().execute(query, params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+sqlite3.OperationalError: no such table: hw1app_goods
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "D:\GB\HTML CSS\Django\venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "D:\GB\HTML CSS\Django\venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\GB\HTML CSS\Django\hw1\hw1app\views.py", line 64, in add_goods
+    good.save()
+  File "D:\GB\HTML CSS\Django\venv\Lib\site-packages\django\db\models\base.py", line 822, in save
+    self.save_base(
+  File "D:\GB\HTML CSS\Django\venv\Lib\site-packages\django\db\models\base.py", line 909, in save_base
+    updated = self._save_table(
+              ^^^^^^^^^^^^^^^^^
+  File "D:\GB\HTML CSS\Django\venv\Lib\site-packages\django\db\models\base.py", line 1067, in _save_table
+    results = self._do_insert(
+              ^^^^^^^^^^^^^^^^
+  File "D:\GB\HTML CSS\Django\venv\Lib\site-packages\django\db\models\base.py", line 1108, in _do_insert
+    return manager._insert(
+           ^^^^^^^^^^^^^^^^
+  File "D:\GB\HTML CSS\Django\venv\Lib\site-packages\django\db\models\manager.py", line 87, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\GB\HTML CSS\Django\venv\Lib\site-packages\django\db\models\query.py", line 1847, in _insert
+    return query.get_compiler(using=using).execute_sql(returning_fields)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\GB\HTML CSS\Django\venv\Lib\site-packages\django\db\models\sql\compiler.py", line 1823, in execute_sql
+    cursor.execute(sql, params)
+  File "D:\GB\HTML CSS\Django\venv\Lib\site-packages\django\db\backends\utils.py", line 122, in execute
+    return super().execute(sql, params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\GB\HTML CSS\Django\venv\Lib\site-packages\django\db\backends\utils.py", line 79, in execute
+    return self._execute_with_wrappers(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\GB\HTML CSS\Django\venv\Lib\site-packages\django\db\backends\utils.py", line 92, in _execute_with_wrappers
+    return executor(sql, params, many, context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\GB\HTML CSS\Django\venv\Lib\site-packages\django\db\backends\utils.py", line 100, in _execute
+    with self.db.wrap_database_errors:
+  File "D:\GB\HTML CSS\Django\venv\Lib\site-packages\django\db\utils.py", line 91, in __exit__
+    raise dj_exc_value.with_traceback(traceback) from exc_value
+  File "D:\GB\HTML CSS\Django\venv\Lib\site-packages\django\db\backends\utils.py", line 105, in _execute
+    return self.cursor.execute(sql, params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\GB\HTML CSS\Django\venv\Lib\site-packages\django\db\backends\sqlite3\base.py", line 329, in execute
+    return super().execute(query, params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+django.db.utils.OperationalError: no such table: hw1app_goods
+"POST /add_goods/ HTTP/1.1" 500 148898
+Watching for file changes with StatReloader
+"GET /add_goods/ HTTP/1.1" 200 1163
+"POST /add_goods/ HTTP/1.1" 200 1225
+"GET /select_goods/ HTTP/1.1" 200 683
+"POST /select_goods/ HTTP/1.1" 200 1542
+"POST /select_goods/ HTTP/1.1" 200 765
+D:\GB\HTML CSS\Django\hw1\hw1app\views.py changed, reloading.
+Watching for file changes with StatReloader
+Internal Server Error: /select_goods/
+Traceback (most recent call last):
+  File "C:\Users\dara3\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\dara3\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\GB\HTML CSS\Django\hw1\hw1app\views.py", line 59, in select_an_action
+    select = form.cleaned_data['select']
+             ^^^^^^^^^^^^^^^^^
+AttributeError: 'SelectGoods' object has no attribute 'cleaned_data'
+"POST /select_goods/ HTTP/1.1" 500 65644
+"GET /select_goods/ HTTP/1.1" 200 683
+Internal Server Error: /select_goods/
+Traceback (most recent call last):
+  File "C:\Users\dara3\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\dara3\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\GB\HTML CSS\Django\hw1\hw1app\views.py", line 59, in select_an_action
+    select = form.cleaned_data['select']
+             ^^^^^^^^^^^^^^^^^
+AttributeError: 'SelectGoods' object has no attribute 'cleaned_data'
+"POST /select_goods/ HTTP/1.1" 500 65094
+D:\GB\HTML CSS\Django\hw1\hw1app\views.py changed, reloading.
+Watching for file changes with StatReloader
+"GET /select_goods/ HTTP/1.1" 200 683
+"POST /select_goods/ HTTP/1.1" 200 692
+"POST /select_goods/ HTTP/1.1" 200 692
+"POST /select_goods/ HTTP/1.1" 200 692
+"POST /select_goods/ HTTP/1.1" 200 692
+"POST /select_goods/ HTTP/1.1" 200 692
+D:\GB\HTML CSS\Django\hw1\hw1app\views.py changed, reloading.
+Watching for file changes with StatReloader
+"GET /select_goods/ HTTP/1.1" 200 683
+"POST /select_goods/ HTTP/1.1" 200 692
+"POST /select_goods/ HTTP/1.1" 200 692
+"POST /select_goods/ HTTP/1.1" 200 692
+D:\GB\HTML CSS\Django\hw1\hw1app\views.py changed, reloading.
+Watching for file changes with StatReloader
+D:\GB\HTML CSS\Django\hw1\hw1app\views.py changed, reloading.
+Watching for file changes with StatReloader
+"GET /select_goods/ HTTP/1.1" 200 683
+"POST /select_goods/ HTTP/1.1" 200 692
+"POST /select_goods/ HTTP/1.1" 200 692
+"POST /select_goods/ HTTP/1.1" 200 692
+"POST /select_goods/ HTTP/1.1" 200 692
+"POST /select_goods/ HTTP/1.1" 200 692
+D:\GB\HTML CSS\Django\hw1\hw1app\views.py changed, reloading.
+Watching for file changes with StatReloader
+"GET /select_goods/ HTTP/1.1" 200 683
+"POST /select_goods/ HTTP/1.1" 200 692
+D:\GB\HTML CSS\Django\hw1\hw1app\views.py changed, reloading.
+Watching for file changes with StatReloader
+"GET /select_goods/ HTTP/1.1" 200 683
+"GET /select_goods/ HTTP/1.1" 200 683
+"POST /select_goods/ HTTP/1.1" 200 692
+"POST /select_goods/ HTTP/1.1" 200 692
+D:\GB\HTML CSS\Django\hw1\hw1app\views.py changed, reloading.
+Watching for file changes with StatReloader
+"GET /select_goods/ HTTP/1.1" 200 683
+"POST /select_goods/ HTTP/1.1" 200 692
+"POST /select_goods/ HTTP/1.1" 200 692
+"POST /select_goods/ HTTP/1.1" 200 692
+"POST /select_goods/ HTTP/1.1" 200 692
+"GET /select_goods/ HTTP/1.1" 200 683
+D:\GB\HTML CSS\Django\hw1\hw1app\views.py changed, reloading.
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+"GET /select_goods/ HTTP/1.1" 200 683
+"POST /select_goods/ HTTP/1.1" 200 692
+"POST /select_goods/ HTTP/1.1" 200 692
+"POST /select_goods/ HTTP/1.1" 200 692
+"GET /add_goods/ HTTP/1.1" 200 1163
+"POST /add_goods/ HTTP/1.1" 200 1226
+"POST /add_goods/ HTTP/1.1" 200 1226
+"POST /add_goods/ HTTP/1.1" 200 1226
+"POST /add_goods/ HTTP/1.1" 200 1226
+D:\GB\HTML CSS\Django\hw1\hw1app\views.py changed, reloading.
+Watching for file changes with StatReloader
+"GET /add_goods/ HTTP/1.1" 200 1163
+"POST /add_goods/ HTTP/1.1" 200 1163
+D:\GB\HTML CSS\Django\hw1\hw1app\views.py changed, reloading.
+Watching for file changes with StatReloader
+D:\GB\HTML CSS\Django\hw1\hw1app\views.py changed, reloading.
+Watching for file changes with StatReloader
+D:\GB\HTML CSS\Django\hw1\hw1app\views.py changed, reloading.
+Watching for file changes with StatReloader
+D:\GB\HTML CSS\Django\hw1\hw1app\views.py changed, reloading.
+Watching for file changes with StatReloader
+"GET /add_goods/ HTTP/1.1" 200 1163
+"GET /add_goods/ HTTP/1.1" 200 1163
+"POST /add_goods/ HTTP/1.1" 200 1163
+Watching for file changes with StatReloader
+"GET /add_goods/ HTTP/1.1" 200 1202
+"POST /add_goods/ HTTP/1.1" 200 1206
+D:\GB\HTML CSS\Django\hw1\hw1app\views.py changed, reloading.
+Watching for file changes with StatReloader
+D:\GB\HTML CSS\Django\hw1\hw1app\views.py changed, reloading.
+Watching for file changes with StatReloader
+D:\GB\HTML CSS\Django\hw1\hw1app\views.py changed, reloading.
+Watching for file changes with StatReloader
+D:\GB\HTML CSS\Django\hw1\hw1app\urls.py changed, reloading.
+Watching for file changes with StatReloader
+"GET /del_goods/1 HTTP/1.1" 301 0
+"GET /del_goods/1/ HTTP/1.1" 200 378
+"POST /del_goods/1/ HTTP/1.1" 200 78
+D:\GB\HTML CSS\Django\hw1\hw1app\views.py changed, reloading.
+Watching for file changes with StatReloader
+Not Found: /del_goods/
+"GET /del_goods/ HTTP/1.1" 404 3404
+"GET /del_goods/2 HTTP/1.1" 301 0
+"GET /del_goods/2/ HTTP/1.1" 200 403
+"POST /del_goods/2/ HTTP/1.1" 200 61
+D:\GB\HTML CSS\Django\hw1\hw1app\forms.py changed, reloading.
+Watching for file changes with StatReloader
+Internal Server Error: /del_goods/3/
+Traceback (most recent call last):
+  File "C:\Users\dara3\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\dara3\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\core\handlers\base.py", line 204, in _get_response
+    self.check_response(response, callback)
+  File "C:\Users\dara3\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\core\handlers\base.py", line 332, in check_response
+    raise ValueError(
+ValueError: The view hw1app.views.del_goods didn't return an HttpResponse object. It returned None instead.
+"GET /del_goods/3/ HTTP/1.1" 500 64907
+Not Found: /del_goods
+"GET /del_goods HTTP/1.1" 404 3401
+D:\GB\HTML CSS\Django\hw1\hw1app\urls.py changed, reloading.
+Watching for file changes with StatReloader
+"GET /del_goods HTTP/1.1" 301 0
+Internal Server Error: /del_goods/
+Traceback (most recent call last):
+  File "C:\Users\dara3\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\dara3\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: del_goods() missing 1 required positional argument: 'good_id'
+"GET /del_goods/ HTTP/1.1" 500 60497
+D:\GB\HTML CSS\Django\hw1\hw1app\views.py changed, reloading.
+Watching for file changes with StatReloader
+Internal Server Error: /del_goods/
+Traceback (most recent call last):
+  File "C:\Users\dara3\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\dara3\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\core\handlers\base.py", line 204, in _get_response
+    self.check_response(response, callback)
+  File "C:\Users\dara3\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\core\handlers\base.py", line 332, in check_response
+    raise ValueError(
+ValueError: The view hw1app.views.del_goods didn't return an HttpResponse object. It returned None instead.
+"GET /del_goods/ HTTP/1.1" 500 65004
+D:\GB\HTML CSS\Django\hw1\hw1app\views.py changed, reloading.
+Watching for file changes with StatReloader
+Internal Server Error: /del_goods/
+Traceback (most recent call last):
+  File "C:\Users\dara3\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\dara3\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\GB\HTML CSS\Django\hw1\hw1app\views.py", line 100, in del_goods
+    return render(request, 'hw1app/del_goods.html', {'message': message})
+                                                                ^^^^^^^
+UnboundLocalError: cannot access local variable 'message' where it is not associated with a value
+"GET /del_goods/ HTTP/1.1" 500 63389
+D:\GB\HTML CSS\Django\hw1\hw1app\views.py changed, reloading.
+Watching for file changes with StatReloader
+Internal Server Error: /del_goods/
+Traceback (most recent call last):
+  File "C:\Users\dara3\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\dara3\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\GB\HTML CSS\Django\hw1\hw1app\views.py", line 100, in del_goods
+    return render(request, 'hw1app/del_goods.html', {'message': message})
+                                                                ^^^^^^^
+UnboundLocalError: cannot access local variable 'message' where it is not associated with a value
+"GET /del_goods/ HTTP/1.1" 500 63380
+Internal Server Error: /del_goods/
+Traceback (most recent call last):
+  File "C:\Users\dara3\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\dara3\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\GB\HTML CSS\Django\hw1\hw1app\views.py", line 100, in del_goods
+    return render(request, 'hw1app/del_goods.html', {'message': message})
+                                                                ^^^^^^^
+UnboundLocalError: cannot access local variable 'message' where it is not associated with a value
+"GET /del_goods/ HTTP/1.1" 500 63380
+D:\GB\HTML CSS\Django\hw1\hw1app\views.py changed, reloading.
+Watching for file changes with StatReloader
+Internal Server Error: /del_goods/
+Traceback (most recent call last):
+  File "C:\Users\dara3\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\dara3\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\GB\HTML CSS\Django\hw1\hw1app\views.py", line 99, in del_goods
+    message = f'Товар {id} удален'
+                       ^^
+UnboundLocalError: cannot access local variable 'id' where it is not associated with a value
+"GET /del_goods/ HTTP/1.1" 500 63519
+D:\GB\HTML CSS\Django\hw1\hw1app\views.py changed, reloading.
+Watching for file changes with StatReloader
+Internal Server Error: /del_goods/
+Traceback (most recent call last):
+  File "C:\Users\dara3\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\dara3\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\GB\HTML CSS\Django\hw1\hw1app\views.py", line 99, in del_goods
+    message = f'Товар {good} удален'
+                       ^^^^
+UnboundLocalError: cannot access local variable 'good' where it is not associated with a value
+"GET /del_goods/ HTTP/1.1" 500 63535
+D:\GB\HTML CSS\Django\hw1\hw1app\views.py changed, reloading.
+Watching for file changes with StatReloader
+"GET /del_goods/ HTTP/1.1" 200 401
+D:\GB\HTML CSS\Django\hw1\hw1app\views.py changed, reloading.
+Watching for file changes with StatReloader
+"GET /del_goods/ HTTP/1.1" 200 405
+D:\GB\HTML CSS\Django\hw1\hw1app\views.py changed, reloading.
+Watching for file changes with StatReloader
+"GET /del_goods/ HTTP/1.1" 200 528
+Internal Server Error: /del_goods/
+Traceback (most recent call last):
+  File "C:\Users\dara3\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\dara3\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\GB\HTML CSS\Django\hw1\hw1app\views.py", line 93, in del_goods
+    good = Goods.objects.filter(id).first()
+                                ^^
+UnboundLocalError: cannot access local variable 'id' where it is not associated with a value
+"POST /del_goods/ HTTP/1.1" 500 65255
+D:\GB\HTML CSS\Django\hw1\hw1app\views.py changed, reloading.
+Watching for file changes with StatReloader
+"GET /del_goods/ HTTP/1.1" 200 528
+Internal Server Error: /del_goods/
+Traceback (most recent call last):
+  File "C:\Users\dara3\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\dara3\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\GB\HTML CSS\Django\hw1\hw1app\views.py", line 93, in del_goods
+    good = Goods.objects.filter(id=id).first()
+                                   ^^
+UnboundLocalError: cannot access local variable 'id' where it is not associated with a value
+"POST /del_goods/ HTTP/1.1" 500 65267
+D:\GB\HTML CSS\Django\hw1\hw1app\views.py changed, reloading.
+Watching for file changes with StatReloader
+"GET /del_goods/ HTTP/1.1" 200 528
+Internal Server Error: /del_goods/
+Traceback (most recent call last):
+  File "C:\Users\dara3\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\dara3\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\GB\HTML CSS\Django\hw1\hw1app\views.py", line 93, in del_goods
+    good = Goods.objects.filter(id=id).first()
+                                   ^^
+UnboundLocalError: cannot access local variable 'id' where it is not associated with a value
+"POST /del_goods/ HTTP/1.1" 500 65280
+D:\GB\HTML CSS\Django\hw1\hw1app\views.py changed, reloading.
+Watching for file changes with StatReloader
+"GET /del_goods/ HTTP/1.1" 200 528
+Internal Server Error: /del_goods/
+Traceback (most recent call last):
+  File "C:\Users\dara3\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\dara3\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\GB\HTML CSS\Django\hw1\hw1app\views.py", line 93, in del_goods
+    good = Goods.objects.filter(id=id).first()
+                                   ^^
+UnboundLocalError: cannot access local variable 'id' where it is not associated with a value
+"POST /del_goods/ HTTP/1.1" 500 65283
+D:\GB\HTML CSS\Django\hw1\hw1app\views.py changed, reloading.
+Watching for file changes with StatReloader
+D:\GB\HTML CSS\Django\hw1\hw1app\views.py changed, reloading.
+Watching for file changes with StatReloader
+Internal Server Error: /del_goods/
+Traceback (most recent call last):
+  File "C:\Users\dara3\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\dara3\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: del_goods() missing 1 required positional argument: 'parser'
+"GET /del_goods/ HTTP/1.1" 500 60356
+D:\GB\HTML CSS\Django\hw1\hw1app\views.py changed, reloading.
+Watching for file changes with StatReloader
+"GET /del_goods/ HTTP/1.1" 200 528
+Internal Server Error: /del_goods/
+Traceback (most recent call last):
+  File "C:\Users\dara3\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\dara3\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\GB\HTML CSS\Django\hw1\hw1app\views.py", line 96, in del_goods
+    pk = form.cleaned_data['pk']
+         ~~~~~~~~~~~~~~~~~^^^^^^
+KeyError: 'pk'
+"POST /del_goods/ HTTP/1.1" 500 65008
+D:\GB\HTML CSS\Django\hw1\hw1app\views.py changed, reloading.
+Watching for file changes with StatReloader
+"GET /del_goods/ HTTP/1.1" 200 528
+Internal Server Error: /del_goods/
+Traceback (most recent call last):
+  File "C:\Users\dara3\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\dara3\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\GB\HTML CSS\Django\hw1\hw1app\views.py", line 96, in del_goods
+    pk = form.cleaned_data['pk']
+         ~~~~~~~~~~~~~~~~~^^^^^^
+KeyError: 'pk'
+"POST /del_goods/ HTTP/1.1" 500 64999
+D:\GB\HTML CSS\Django\hw1\hw1app\views.py changed, reloading.
+Watching for file changes with StatReloader
+Internal Server Error: /del_good/
+Traceback (most recent call last):
+  File "C:\Users\dara3\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\dara3\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: del_good() missing 1 required positional argument: 'good_id'
+"GET /del_good/ HTTP/1.1" 500 60344
+D:\GB\HTML CSS\Django\hw1\hw1app\views.py changed, reloading.
+Watching for file changes with StatReloader
+Internal Server Error: /del_good/
+Traceback (most recent call last):
+  File "C:\Users\dara3\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\dara3\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: del_good() missing 1 required positional argument: 'good_id'
+"GET /del_good/ HTTP/1.1" 500 60481
+Internal Server Error: /del_good/
+Traceback (most recent call last):
+  File "C:\Users\dara3\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\dara3\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: del_good() missing 1 required positional argument: 'good_id'
+"GET /del_good/ HTTP/1.1" 500 60481
+Internal Server Error: /del_good/
+Traceback (most recent call last):
+  File "C:\Users\dara3\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\dara3\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: del_good() missing 1 required positional argument: 'good_id'
+"GET /del_good/ HTTP/1.1" 500 60481
+D:\GB\HTML CSS\Django\hw1\hw1app\views.py changed, reloading.
+Watching for file changes with StatReloader
+Internal Server Error: /del_good/
+Traceback (most recent call last):
+  File "C:\Users\dara3\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\db\models\fields\__init__.py", line 2117, in get_prep_value
+    return int(value)
+           ^^^^^^^^^^
+TypeError: int() argument must be a string, a bytes-like object or a real number, not 'WSGIRequest'
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\dara3\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\dara3\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\GB\HTML CSS\Django\hw1\hw1app\views.py", line 107, in del_good
+    good = Goods.objects.filter(id=request).first()
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\dara3\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\db\models\manager.py", line 87, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\dara3\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\db\models\query.py", line 1476, in filter
+    return self._filter_or_exclude(False, args, kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\dara3\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\db\models\query.py", line 1494, in _filter_or_exclude
+    clone._filter_or_exclude_inplace(negate, args, kwargs)
+  File "C:\Users\dara3\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\db\models\query.py", line 1501, in _filter_or_exclude_inplace
+    self._query.add_q(Q(*args, **kwargs))
+  File "C:\Users\dara3\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\db\models\sql\query.py", line 1613, in add_q
+    clause, _ = self._add_q(q_object, self.used_aliases)
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\dara3\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\db\models\sql\query.py", line 1645, in _add_q
+    child_clause, needed_inner = self.build_filter(
+                                 ^^^^^^^^^^^^^^^^^^
+  File "C:\Users\dara3\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\db\models\sql\query.py", line 1559, in build_filter
+    condition = self.build_lookup(lookups, col, value)
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\dara3\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\db\models\sql\query.py", line 1389, in build_lookup
+    lookup = lookup_class(lhs, rhs)
+             ^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\dara3\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\db\models\lookups.py", line 30, in __init__
+    self.rhs = self.get_prep_lookup()
+               ^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\dara3\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\db\models\lookups.py", line 364, in get_prep_lookup
+    return super().get_prep_lookup()
+           ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\dara3\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\db\models\lookups.py", line 88, in get_prep_lookup
+    return self.lhs.output_field.get_prep_value(self.rhs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\dara3\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\db\models\fields\__init__.py", line 2119, in get_prep_value
+    raise e.__class__(
+TypeError: Field 'id' expected a number but got <WSGIRequest: GET '/del_good/'>.
+"GET /del_good/ HTTP/1.1" 500 127351
+D:\GB\HTML CSS\Django\hw1\hw1app\views.py changed, reloading.
+Watching for file changes with StatReloader
+D:\GB\HTML CSS\Django\hw1\hw1app\forms.py changed, reloading.
+Watching for file changes with StatReloader
+D:\GB\HTML CSS\Django\hw1\hw1\settings.py changed, reloading.
+Watching for file changes with StatReloader
+D:\GB\HTML CSS\Django\hw1\hw1app\views.py changed, reloading.
+Watching for file changes with StatReloader
+D:\GB\HTML CSS\Django\hw1\hw1app\views.py changed, reloading.
+Watching for file changes with StatReloader
+D:\GB\HTML CSS\Django\hw1\hw1app\views.py changed, reloading.
+Watching for file changes with StatReloader
+D:\GB\HTML CSS\Django\hw1\hw1app\views.py changed, reloading.
+Watching for file changes with StatReloader
+D:\GB\HTML CSS\Django\hw1\hw1app\views.py changed, reloading.
+Watching for file changes with StatReloader
+D:\GB\HTML CSS\Django\hw1\hw1app\urls.py changed, reloading.
+Watching for file changes with StatReloader
+Internal Server Error: /upload/
+Traceback (most recent call last):
+  File "C:\Users\dara3\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\template\backends\django.py", line 61, in render
+    return self.template.render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\dara3\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\template\base.py", line 171, in render
+    return self._render(context)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\dara3\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\template\base.py", line 163, in _render
+    return self.nodelist.render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\dara3\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\template\base.py", line 1000, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\dara3\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\template\base.py", line 1000, in <listcomp>
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\dara3\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\template\base.py", line 961, in render_annotated
+    return self.render(context)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\dara3\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\template\loader_tags.py", line 134, in render
+    compiled_parent = self.get_parent(context)
+                      ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\dara3\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\template\loader_tags.py", line 131, in get_parent
+    return self.find_template(parent, context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\dara3\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\template\loader_tags.py", line 109, in find_template
+    template, origin = context.template.engine.find_template(
+                       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\dara3\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\template\engine.py", line 163, in find_template
+    raise TemplateDoesNotExist(name, tried=tried)
+django.template.exceptions.TemplateDoesNotExist: base.html
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\dara3\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\dara3\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\GB\HTML CSS\Django\hw1\hw1app\views.py", line 135, in upload_image
+    return render(request, 'hw1app/upload_image.html', {'form':form})
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\dara3\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\shortcuts.py", line 25, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\dara3\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\template\loader.py", line 62, in render_to_string
+    return template.render(context, request)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\dara3\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\template\backends\django.py", line 63, in render
+    reraise(exc, self.backend)
+  File "C:\Users\dara3\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\template\backends\django.py", line 84, in reraise
+    raise new from exc
+django.template.exceptions.TemplateDoesNotExist: base.html
+"GET /upload/ HTTP/1.1" 500 128680
+"GET /upload/ HTTP/1.1" 200 599
+Internal Server Error: /upload/
+Traceback (most recent call last):
+  File "C:\Users\dara3\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\dara3\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\GB\HTML CSS\Django\hw1\hw1app\views.py", line 129, in upload_image
+    if form.is_valid():
+       ^^^^^^^^^^^^^^^
+  File "C:\Users\dara3\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\forms\forms.py", line 197, in is_valid
+    return self.is_bound and not self.errors
+                                 ^^^^^^^^^^^
+  File "C:\Users\dara3\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\forms\forms.py", line 192, in errors
+    self.full_clean()
+  File "C:\Users\dara3\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\forms\forms.py", line 327, in full_clean
+    self._clean_fields()
+  File "C:\Users\dara3\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\forms\forms.py", line 337, in _clean_fields
+    value = field.clean(value, bf.initial)
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\dara3\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\forms\fields.py", line 689, in clean
+    return super().clean(data)
+           ^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\dara3\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\forms\fields.py", line 204, in clean
+    value = self.to_python(value)
+            ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\dara3\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\forms\fields.py", line 716, in to_python
+    from PIL import Image
+ModuleNotFoundError: No module named 'PIL'
+"POST /upload/ HTTP/1.1" 500 93553
+D:\GB\HTML CSS\Django\hw1\hw1app\views.py changed, reloading.
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+"GET /upload/ HTTP/1.1" 200 599
+"POST /upload/ HTTP/1.1" 200 599
+"POST /upload/ HTTP/1.1" 200 747
+D:\GB\HTML CSS\Django\hw1\hw1app\views.py changed, reloading.
+Watching for file changes with StatReloader
+D:\GB\HTML CSS\Django\hw1\hw1app\views.py changed, reloading.
+Watching for file changes with StatReloader
+D:\GB\HTML CSS\Django\hw1\hw1app\views.py changed, reloading.
+Watching for file changes with StatReloader
+D:\GB\HTML CSS\Django\hw1\hw1app\views.py changed, reloading.
+Watching for file changes with StatReloader
+D:\GB\HTML CSS\Django\hw1\hw1app\views.py changed, reloading.
+Watching for file changes with StatReloader
+D:\GB\HTML CSS\Django\hw1\hw1app\views.py changed, reloading.
+Watching for file changes with StatReloader
+"GET /del_good/ HTTP/1.1" 200 521
+Internal Server Error: /del_good/
+Traceback (most recent call last):
+  File "D:\GB\HTML CSS\Django\venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "D:\GB\HTML CSS\Django\venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\GB\HTML CSS\Django\hw1\hw1app\views.py", line 114, in del_good
+    doog.delete()
+    ^^^^^^^^^^^
+AttributeError: 'NoneType' object has no attribute 'delete'
+"POST /del_good/ HTTP/1.1" 500 66465
+D:\GB\HTML CSS\Django\hw1\hw1app\views.py changed, reloading.
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+"GET /del_good/ HTTP/1.1" 200 501
+Internal Server Error: /del_good/
+Traceback (most recent call last):
+  File "D:\GB\HTML CSS\Django\venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "D:\GB\HTML CSS\Django\venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\GB\HTML CSS\Django\hw1\hw1app\views.py", line 115, in del_good
+    doog.delete()
+    ^^^^^^^^^^^
+AttributeError: 'NoneType' object has no attribute 'delete'
+"POST /del_good/ HTTP/1.1" 500 66647
+D:\GB\HTML CSS\Django\hw1\hw1app\views.py changed, reloading.
+Watching for file changes with StatReloader
+"GET /del_good/ HTTP/1.1" 200 501
+Internal Server Error: /del_good/
+Traceback (most recent call last):
+  File "D:\GB\HTML CSS\Django\venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "D:\GB\HTML CSS\Django\venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\GB\HTML CSS\Django\hw1\hw1app\views.py", line 115, in del_good
+    id.delete()
+    ^^^^^^^^^
+AttributeError: 'int' object has no attribute 'delete'
+"POST /del_good/ HTTP/1.1" 500 66461
+D:\GB\HTML CSS\Django\hw1\hw1app\forms.py changed, reloading.
+Watching for file changes with StatReloader
+"GET /del_good/ HTTP/1.1" 200 499
+Internal Server Error: /del_good/
+Traceback (most recent call last):
+  File "D:\GB\HTML CSS\Django\venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "D:\GB\HTML CSS\Django\venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\GB\HTML CSS\Django\hw1\hw1app\views.py", line 115, in del_good
+    id.delete()
+    ^^^^^^^^^
+AttributeError: 'str' object has no attribute 'delete'
+"POST /del_good/ HTTP/1.1" 500 66473
+D:\GB\HTML CSS\Django\hw1\hw1app\views.py changed, reloading.
+Watching for file changes with StatReloader
+"GET /del_good/ HTTP/1.1" 200 499
+Internal Server Error: /del_good/
+Traceback (most recent call last):
+  File "D:\GB\HTML CSS\Django\venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "D:\GB\HTML CSS\Django\venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\GB\HTML CSS\Django\hw1\hw1app\views.py", line 114, in del_good
+    pk = form.cleaned_data['id']
+         ~~~~~~~~~~~~~~~~~^^^^^^
+KeyError: 'id'
+"POST /del_good/ HTTP/1.1" 500 66279
+D:\GB\HTML CSS\Django\hw1\hw1app\views.py changed, reloading.
+Watching for file changes with StatReloader
+"GET /del_good/ HTTP/1.1" 200 499
+Internal Server Error: /del_good/
+Traceback (most recent call last):
+  File "D:\GB\HTML CSS\Django\venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "D:\GB\HTML CSS\Django\venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\GB\HTML CSS\Django\hw1\hw1app\views.py", line 115, in del_good
+    pk.delete()
+    ^^^^^^^^^
+AttributeError: 'str' object has no attribute 'delete'
+"POST /del_good/ HTTP/1.1" 500 66473
+D:\GB\HTML CSS\Django\hw1\hw1app\forms.py changed, reloading.
+Watching for file changes with StatReloader
+D:\GB\HTML CSS\Django\hw1\hw1app\models.py changed, reloading.
+Watching for file changes with StatReloader
+D:\GB\HTML CSS\Django\hw1\hw1app\models.py changed, reloading.
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+"GET /upload/ HTTP/1.1" 200 1195
+Internal Server Error: /upload/
+Traceback (most recent call last):
+  File "D:\GB\HTML CSS\Django\venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "D:\GB\HTML CSS\Django\venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\GB\HTML CSS\Django\hw1\hw1app\views.py", line 127, in upload_image
+    fs.save(image.name, image)
+  File "D:\GB\HTML CSS\Django\venv\Lib\site-packages\django\db\models\base.py", line 782, in save
+    raise ValueError("Cannot force both insert and updating in model saving.")
+ValueError: Cannot force both insert and updating in model saving.
+"POST /upload/ HTTP/1.1" 500 71603
+D:\GB\HTML CSS\Django\hw1\hw1app\views.py changed, reloading.
+Watching for file changes with StatReloader
+"GET /add_goods HTTP/1.1" 301 0
+"GET /add_goods/ HTTP/1.1" 200 1155
+Internal Server Error: /add_goods/
+Traceback (most recent call last):
+  File "D:\GB\HTML CSS\Django\venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "D:\GB\HTML CSS\Django\venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\GB\HTML CSS\Django\hw1\hw1app\views.py", line 91, in add_goods
+    return render(request, 'hw1app/add_goods.html', {'form': form, 'message': message})
+                                                                              ^^^^^^^
+UnboundLocalError: cannot access local variable 'message' where it is not associated with a value
+"POST /add_goods/ HTTP/1.1" 500 67265
+D:\GB\HTML CSS\Django\hw1\hw1app\views.py changed, reloading.
+Watching for file changes with StatReloader
+"GET /add_goods/ HTTP/1.1" 200 1128
+"POST /add_goods/ HTTP/1.1" 200 1251
+"POST /add_goods/ HTTP/1.1" 200 1251
+"GET /add_goods/ HTTP/1.1" 200 1128
+D:\GB\HTML CSS\Django\hw1\hw1app\views.py changed, reloading.
+Watching for file changes with StatReloader
+"GET /add_goods/ HTTP/1.1" 200 1128
+D:\GB\HTML CSS\Django\hw1\hw1app\models.py changed, reloading.
+Watching for file changes with StatReloader
+"GET /add_goods/ HTTP/1.1" 200 1128
+"GET /add_goods/ HTTP/1.1" 200 1128
+D:\GB\HTML CSS\Django\hw1\hw1app\forms.py changed, reloading.
+Watching for file changes with StatReloader
+"GET /add_goods/ HTTP/1.1" 200 983
+"GET /add_goods/ HTTP/1.1" 200 983
+Internal Server Error: /add_goods/
+Traceback (most recent call last):
+  File "D:\GB\HTML CSS\Django\venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "D:\GB\HTML CSS\Django\venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\GB\HTML CSS\Django\hw1\hw1app\views.py", line 81, in add_goods
+    date_of_add = form.cleaned_data['date_of_add']
+                  ~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^
+KeyError: 'date_of_add'
+"POST /add_goods/ HTTP/1.1" 500 67530
+D:\GB\HTML CSS\Django\hw1\hw1app\views.py changed, reloading.
+Watching for file changes with StatReloader
+"GET /add_goods/ HTTP/1.1" 200 1320
+"POST /add_goods/ HTTP/1.1" 200 1439
+"POST /add_goods/ HTTP/1.1" 200 1439
+D:\GB\HTML CSS\Django\hw1\hw1app\views.py changed, reloading.
+Watching for file changes with StatReloader
+"GET /add_goods/ HTTP/1.1" 200 1320
+"POST /add_goods/ HTTP/1.1" 200 1439
+D:\GB\HTML CSS\Django\hw1\hw1app\views.py changed, reloading.
+Watching for file changes with StatReloader
+D:\GB\HTML CSS\Django\hw1\hw1app\views.py changed, reloading.
+Watching for file changes with StatReloader
+D:\GB\HTML CSS\Django\hw1\hw1app\views.py changed, reloading.
+Watching for file changes with StatReloader
+"GET /add_goods/ HTTP/1.1" 200 1320
+"POST /add_goods/ HTTP/1.1" 200 1439
+D:\GB\HTML CSS\Django\hw1\hw1app\views.py changed, reloading.
+Watching for file changes with StatReloader
+"GET /add_goods/ HTTP/1.1" 200 1320
+"POST /add_goods/ HTTP/1.1" 200 1439
+"POST /add_goods/ HTTP/1.1" 200 1439
+D:\GB\HTML CSS\Django\hw1\hw1app\models.py changed, reloading.
+Watching for file changes with StatReloader
+"GET /add_goods/ HTTP/1.1" 200 1320
+"POST /add_goods/ HTTP/1.1" 200 1439
+D:\GB\HTML CSS\Django\hw1\hw1app\views.py changed, reloading.
+Watching for file changes with StatReloader
+"GET /add_goods/ HTTP/1.1" 200 1320
+"POST /add_goods/ HTTP/1.1" 200 1439
+D:\GB\HTML CSS\Django\hw1\hw1app\views.py changed, reloading.
+Watching for file changes with StatReloader
+D:\GB\HTML CSS\Django\hw1\hw1app\models.py changed, reloading.
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+"POST /add_goods/ HTTP/1.1" 200 1439
+"GET /add_goods/ HTTP/1.1" 200 1320
+"POST /add_goods/ HTTP/1.1" 200 1439
+D:\GB\HTML CSS\Django\hw1\hw1app\models.py changed, reloading.
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+"GET /add_goods/ HTTP/1.1" 200 1320
+"POST /add_goods/ HTTP/1.1" 200 1439
+D:\GB\HTML CSS\Django\hw1\hw1app\forms.py changed, reloading.
+Watching for file changes with StatReloader
+"GET /add_goods/ HTTP/1.1" 200 1311
+Internal Server Error: /add_goods/
+Traceback (most recent call last):
+  File "D:\GB\HTML CSS\Django\venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "D:\GB\HTML CSS\Django\venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\GB\HTML CSS\Django\hw1\hw1app\views.py", line 84, in add_goods
+    fs.save(image.name, image)
+            ^^^^^^^^^^
+AttributeError: 'NoneType' object has no attribute 'name'
+"POST /add_goods/ HTTP/1.1" 500 68512
+"GET /add_goods/ HTTP/1.1" 200 1311
+Internal Server Error: /add_goods/
+Traceback (most recent call last):
+  File "D:\GB\HTML CSS\Django\venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "D:\GB\HTML CSS\Django\venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\GB\HTML CSS\Django\hw1\hw1app\views.py", line 84, in add_goods
+    fs.save(image.name, image)
+            ^^^^^^^^^^
+AttributeError: 'NoneType' object has no attribute 'name'
+"POST /add_goods/ HTTP/1.1" 500 68502
+D:\GB\HTML CSS\Django\hw1\hw1app\views.py changed, reloading.
+Watching for file changes with StatReloader
+"GET /add_goods/ HTTP/1.1" 200 1311
+Internal Server Error: /add_goods/
+Traceback (most recent call last):
+  File "D:\GB\HTML CSS\Django\venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "D:\GB\HTML CSS\Django\venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\GB\HTML CSS\Django\hw1\hw1app\views.py", line 144, in add_goods
+    fs.save(image.name, image)
+            ^^^^^^^^^^
+AttributeError: 'NoneType' object has no attribute 'name'
+"POST /add_goods/ HTTP/1.1" 500 68509
+D:\GB\HTML CSS\Django\hw1\hw1app\views.py changed, reloading.
+Watching for file changes with StatReloader
+"GET /add_goods/ HTTP/1.1" 200 1311
+"POST /add_goods/ HTTP/1.1" 200 1311
+D:\GB\HTML CSS\Django\hw1\hw1app\views.py changed, reloading.
+Watching for file changes with StatReloader
+"GET /add_goods/ HTTP/1.1" 200 1338
+"POST /add_goods/ HTTP/1.1" 200 1342
+D:\GB\HTML CSS\Django\hw1\hw1app\views.py changed, reloading.
+Watching for file changes with StatReloader
+Not Found: /add_images/
+"GET /add_images/ HTTP/1.1" 404 3560
+"GET /upload/ HTTP/1.1" 200 1311
+Internal Server Error: /upload/
+Traceback (most recent call last):
+  File "D:\GB\HTML CSS\Django\venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "D:\GB\HTML CSS\Django\venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\GB\HTML CSS\Django\hw1\hw1app\views.py", line 139, in add_images
+    fs.save(image.name, image)
+            ^^^^^^^^^^
+AttributeError: 'NoneType' object has no attribute 'name'
+"POST /upload/ HTTP/1.1" 500 67366
+D:\GB\HTML CSS\Django\hw1\hw1app\urls.py changed, reloading.
+Watching for file changes with StatReloader
+"GET /upload/ HTTP/1.1" 200 599
+"POST /upload/ HTTP/1.1" 200 599
+D:\GB\HTML CSS\Django\hw1\hw1app\urls.py changed, reloading.
+Watching for file changes with StatReloader
+"GET /uploadi/ HTTP/1.1" 200 1311
+Internal Server Error: /uploadi/
+Traceback (most recent call last):
+  File "D:\GB\HTML CSS\Django\venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "D:\GB\HTML CSS\Django\venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\GB\HTML CSS\Django\hw1\hw1app\views.py", line 139, in add_images
+    fs.save(image.name, image)
+            ^^^^^^^^^^
+AttributeError: 'NoneType' object has no attribute 'name'
+"POST /uploadi/ HTTP/1.1" 500 67372
+D:\GB\HTML CSS\Django\hw1\hw1app\forms.py changed, reloading.
+Watching for file changes with StatReloader
+"GET /uploadi/ HTTP/1.1" 200 1320
+Internal Server Error: /uploadi/
+Traceback (most recent call last):
+  File "D:\GB\HTML CSS\Django\venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "D:\GB\HTML CSS\Django\venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\GB\HTML CSS\Django\hw1\hw1app\views.py", line 139, in add_images
+    fs.save(image.name, image)
+            ^^^^^
+UnboundLocalError: cannot access local variable 'image' where it is not associated with a value
+"POST /uploadi/ HTTP/1.1" 500 67326
