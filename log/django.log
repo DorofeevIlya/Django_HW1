@@ -2494,3 +2494,697 @@ django.core.exceptions.DisallowedHost: Invalid HTTP_HOST header: 'download.jetbr
 Bad Request: /download.jetbrains.com:443
 "CONNECT download.jetbrains.com:443 HTTP/1.1" 400 67350
 Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+D:\GB\HTML CSS\Django\hw1\hw1\settings.py changed, reloading.
+Watching for file changes with StatReloader
+D:\GB\HTML CSS\Django\hw1\hw1\urls.py changed, reloading.
+Watching for file changes with StatReloader
+"GET / HTTP/1.1" 200 90
+"GET /admin/hw1app/goods/ HTTP/1.1" 200 14667
+"GET /static/admin/js/core.js HTTP/1.1" 200 6208
+"GET /static/admin/js/jquery.init.js HTTP/1.1" 200 347
+"GET /static/admin/js/urlify.js HTTP/1.1" 200 7887
+"GET /static/admin/js/admin/RelatedObjectLookups.js HTTP/1.1" 200 9042
+"GET /static/admin/js/actions.js HTTP/1.1" 200 8067
+"GET /static/admin/js/prepopulate.js HTTP/1.1" 200 1531
+"GET /static/admin/img/search.svg HTTP/1.1" 200 458
+"GET /admin/jsi18n/ HTTP/1.1" 200 17546
+"GET /static/admin/js/vendor/jquery/jquery.js HTTP/1.1" 200 285314
+"GET /static/admin/js/theme.js HTTP/1.1" 200 1943
+"GET /static/admin/js/nav_sidebar.js HTTP/1.1" 200 3063
+"GET /static/admin/js/vendor/xregexp/xregexp.js HTTP/1.1" 200 325171
+"GET /static/admin/img/tooltag-add.svg HTTP/1.1" 200 331
+"GET /static/admin/img/icon-addlink.svg HTTP/1.1" 200 331
+"GET /static/admin/img/sorting-icons.svg HTTP/1.1" 200 1097
+"POST /admin/logout/ HTTP/1.1" 200 3817
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+"GET / HTTP/1.1" 200 90
+"GET /add_goods/ HTTP/1.1" 200 11162
+"GET /static/debug_toolbar/css/toolbar.css HTTP/1.1" 200 12621
+"GET /static/debug_toolbar/css/print.css HTTP/1.1" 200 43
+"GET /static/debug_toolbar/js/toolbar.js HTTP/1.1" 200 13578
+"GET /static/debug_toolbar/js/utils.js HTTP/1.1" 200 4527
+"GET / HTTP/1.1" 200 90
+"GET /add_goods/ HTTP/1.1" 200 11162
+Invalid HTTP_HOST header: 'plugins.jetbrains.com'. You may need to add 'plugins.jetbrains.com' to ALLOWED_HOSTS.
+Traceback (most recent call last):
+  File "D:\GB\HTML CSS\Django\hw1\venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "D:\GB\HTML CSS\Django\hw1\venv\Lib\site-packages\django\utils\deprecation.py", line 133, in __call__
+    response = self.process_request(request)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\GB\HTML CSS\Django\hw1\venv\Lib\site-packages\django\middleware\common.py", line 48, in process_request
+    host = request.get_host()
+           ^^^^^^^^^^^^^^^^^^
+  File "D:\GB\HTML CSS\Django\hw1\venv\Lib\site-packages\django\http\request.py", line 151, in get_host
+    raise DisallowedHost(msg)
+django.core.exceptions.DisallowedHost: Invalid HTTP_HOST header: 'plugins.jetbrains.com'. You may need to add 'plugins.jetbrains.com' to ALLOWED_HOSTS.
+Bad Request: /plugins.jetbrains.com:443
+"CONNECT plugins.jetbrains.com:443 HTTP/1.1" 400 77383
+Invalid HTTP_HOST header: 'plugins.jetbrains.com'. You may need to add 'plugins.jetbrains.com' to ALLOWED_HOSTS.
+Traceback (most recent call last):
+  File "D:\GB\HTML CSS\Django\hw1\venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "D:\GB\HTML CSS\Django\hw1\venv\Lib\site-packages\django\utils\deprecation.py", line 133, in __call__
+    response = self.process_request(request)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\GB\HTML CSS\Django\hw1\venv\Lib\site-packages\django\middleware\common.py", line 48, in process_request
+    host = request.get_host()
+           ^^^^^^^^^^^^^^^^^^
+  File "D:\GB\HTML CSS\Django\hw1\venv\Lib\site-packages\django\http\request.py", line 151, in get_host
+    raise DisallowedHost(msg)
+django.core.exceptions.DisallowedHost: Invalid HTTP_HOST header: 'plugins.jetbrains.com'. You may need to add 'plugins.jetbrains.com' to ALLOWED_HOSTS.
+Bad Request: /plugins.jetbrains.com:443
+"CONNECT plugins.jetbrains.com:443 HTTP/1.1" 400 77383
+Invalid HTTP_HOST header: 'plugins.jetbrains.com'. You may need to add 'plugins.jetbrains.com' to ALLOWED_HOSTS.
+Traceback (most recent call last):
+  File "D:\GB\HTML CSS\Django\hw1\venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "D:\GB\HTML CSS\Django\hw1\venv\Lib\site-packages\django\utils\deprecation.py", line 133, in __call__
+    response = self.process_request(request)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\GB\HTML CSS\Django\hw1\venv\Lib\site-packages\django\middleware\common.py", line 48, in process_request
+    host = request.get_host()
+           ^^^^^^^^^^^^^^^^^^
+  File "D:\GB\HTML CSS\Django\hw1\venv\Lib\site-packages\django\http\request.py", line 151, in get_host
+    raise DisallowedHost(msg)
+django.core.exceptions.DisallowedHost: Invalid HTTP_HOST header: 'plugins.jetbrains.com'. You may need to add 'plugins.jetbrains.com' to ALLOWED_HOSTS.
+Bad Request: /plugins.jetbrains.com:443
+"CONNECT plugins.jetbrains.com:443 HTTP/1.1" 400 77383
+Invalid HTTP_HOST header: 'plugins.jetbrains.com'. You may need to add 'plugins.jetbrains.com' to ALLOWED_HOSTS.
+Traceback (most recent call last):
+  File "D:\GB\HTML CSS\Django\hw1\venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "D:\GB\HTML CSS\Django\hw1\venv\Lib\site-packages\django\utils\deprecation.py", line 133, in __call__
+    response = self.process_request(request)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\GB\HTML CSS\Django\hw1\venv\Lib\site-packages\django\middleware\common.py", line 48, in process_request
+    host = request.get_host()
+           ^^^^^^^^^^^^^^^^^^
+  File "D:\GB\HTML CSS\Django\hw1\venv\Lib\site-packages\django\http\request.py", line 151, in get_host
+    raise DisallowedHost(msg)
+django.core.exceptions.DisallowedHost: Invalid HTTP_HOST header: 'plugins.jetbrains.com'. You may need to add 'plugins.jetbrains.com' to ALLOWED_HOSTS.
+Bad Request: /plugins.jetbrains.com:443
+"CONNECT plugins.jetbrains.com:443 HTTP/1.1" 400 77383
+"GET /about/ HTTP/1.1" 200 84
+"GET /about HTTP/1.1" 301 0
+"GET /about/ HTTP/1.1" 200 84
+"GET / HTTP/1.1" 200 90
+"GET /add_goods/ HTTP/1.1" 200 11162
+"GET /static/debug_toolbar/css/toolbar.css HTTP/1.1" 304 0
+"GET /static/debug_toolbar/css/print.css HTTP/1.1" 304 0
+"GET /static/debug_toolbar/js/toolbar.js HTTP/1.1" 304 0
+"GET /static/debug_toolbar/js/utils.js HTTP/1.1" 304 0
+"GET /__debug__/render_panel/?store_id=55963b6e63024d8dbc6500cffecbb16e&panel_id=HistoryPanel HTTP/1.1" 200 22276
+"GET /static/debug_toolbar/js/history.js HTTP/1.1" 200 3515
+Invalid HTTP_HOST header: 'download.jetbrains.com'. You may need to add 'download.jetbrains.com' to ALLOWED_HOSTS.
+Traceback (most recent call last):
+  File "D:\GB\HTML CSS\Django\hw1\venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "D:\GB\HTML CSS\Django\hw1\venv\Lib\site-packages\django\utils\deprecation.py", line 133, in __call__
+    response = self.process_request(request)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\GB\HTML CSS\Django\hw1\venv\Lib\site-packages\django\middleware\common.py", line 48, in process_request
+    host = request.get_host()
+           ^^^^^^^^^^^^^^^^^^
+  File "D:\GB\HTML CSS\Django\hw1\venv\Lib\site-packages\django\http\request.py", line 151, in get_host
+    raise DisallowedHost(msg)
+django.core.exceptions.DisallowedHost: Invalid HTTP_HOST header: 'download.jetbrains.com'. You may need to add 'download.jetbrains.com' to ALLOWED_HOSTS.
+Bad Request: /download.jetbrains.com:443
+"CONNECT download.jetbrains.com:443 HTTP/1.1" 400 77410
+Invalid HTTP_HOST header: 'www.jetbrains.com'. You may need to add 'www.jetbrains.com' to ALLOWED_HOSTS.
+Traceback (most recent call last):
+  File "D:\GB\HTML CSS\Django\hw1\venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "D:\GB\HTML CSS\Django\hw1\venv\Lib\site-packages\django\utils\deprecation.py", line 133, in __call__
+    response = self.process_request(request)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\GB\HTML CSS\Django\hw1\venv\Lib\site-packages\django\middleware\common.py", line 48, in process_request
+    host = request.get_host()
+           ^^^^^^^^^^^^^^^^^^
+  File "D:\GB\HTML CSS\Django\hw1\venv\Lib\site-packages\django\http\request.py", line 151, in get_host
+    raise DisallowedHost(msg)
+django.core.exceptions.DisallowedHost: Invalid HTTP_HOST header: 'www.jetbrains.com'. You may need to add 'www.jetbrains.com' to ALLOWED_HOSTS.
+Invalid HTTP_HOST header: 'www.jetbrains.com'. You may need to add 'www.jetbrains.com' to ALLOWED_HOSTS.
+Traceback (most recent call last):
+  File "D:\GB\HTML CSS\Django\hw1\venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "D:\GB\HTML CSS\Django\hw1\venv\Lib\site-packages\django\utils\deprecation.py", line 133, in __call__
+    response = self.process_request(request)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\GB\HTML CSS\Django\hw1\venv\Lib\site-packages\django\middleware\common.py", line 48, in process_request
+    host = request.get_host()
+           ^^^^^^^^^^^^^^^^^^
+  File "D:\GB\HTML CSS\Django\hw1\venv\Lib\site-packages\django\http\request.py", line 151, in get_host
+    raise DisallowedHost(msg)
+django.core.exceptions.DisallowedHost: Invalid HTTP_HOST header: 'www.jetbrains.com'. You may need to add 'www.jetbrains.com' to ALLOWED_HOSTS.
+Bad Request: /www.jetbrains.com:443
+Bad Request: /www.jetbrains.com:443
+"CONNECT www.jetbrains.com:443 HTTP/1.1" 400 77276
+"CONNECT www.jetbrains.com:443 HTTP/1.1" 400 77276
+Invalid HTTP_HOST header: 'www.jetbrains.com'. You may need to add 'www.jetbrains.com' to ALLOWED_HOSTS.
+Traceback (most recent call last):
+  File "D:\GB\HTML CSS\Django\hw1\venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "D:\GB\HTML CSS\Django\hw1\venv\Lib\site-packages\django\utils\deprecation.py", line 133, in __call__
+    response = self.process_request(request)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\GB\HTML CSS\Django\hw1\venv\Lib\site-packages\django\middleware\common.py", line 48, in process_request
+    host = request.get_host()
+           ^^^^^^^^^^^^^^^^^^
+  File "D:\GB\HTML CSS\Django\hw1\venv\Lib\site-packages\django\http\request.py", line 151, in get_host
+    raise DisallowedHost(msg)
+django.core.exceptions.DisallowedHost: Invalid HTTP_HOST header: 'www.jetbrains.com'. You may need to add 'www.jetbrains.com' to ALLOWED_HOSTS.
+Bad Request: /www.jetbrains.com:443
+"CONNECT www.jetbrains.com:443 HTTP/1.1" 400 77275
+Invalid HTTP_HOST header: 'www.jetbrains.com'. You may need to add 'www.jetbrains.com' to ALLOWED_HOSTS.
+Traceback (most recent call last):
+  File "D:\GB\HTML CSS\Django\hw1\venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "D:\GB\HTML CSS\Django\hw1\venv\Lib\site-packages\django\utils\deprecation.py", line 133, in __call__
+    response = self.process_request(request)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\GB\HTML CSS\Django\hw1\venv\Lib\site-packages\django\middleware\common.py", line 48, in process_request
+    host = request.get_host()
+           ^^^^^^^^^^^^^^^^^^
+  File "D:\GB\HTML CSS\Django\hw1\venv\Lib\site-packages\django\http\request.py", line 151, in get_host
+    raise DisallowedHost(msg)
+django.core.exceptions.DisallowedHost: Invalid HTTP_HOST header: 'www.jetbrains.com'. You may need to add 'www.jetbrains.com' to ALLOWED_HOSTS.
+Bad Request: /www.jetbrains.com:443
+"CONNECT www.jetbrains.com:443 HTTP/1.1" 400 77275
+Invalid HTTP_HOST header: 'www.jetbrains.com'. You may need to add 'www.jetbrains.com' to ALLOWED_HOSTS.
+Traceback (most recent call last):
+  File "D:\GB\HTML CSS\Django\hw1\venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "D:\GB\HTML CSS\Django\hw1\venv\Lib\site-packages\django\utils\deprecation.py", line 133, in __call__
+    response = self.process_request(request)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\GB\HTML CSS\Django\hw1\venv\Lib\site-packages\django\middleware\common.py", line 48, in process_request
+    host = request.get_host()
+           ^^^^^^^^^^^^^^^^^^
+  File "D:\GB\HTML CSS\Django\hw1\venv\Lib\site-packages\django\http\request.py", line 151, in get_host
+    raise DisallowedHost(msg)
+django.core.exceptions.DisallowedHost: Invalid HTTP_HOST header: 'www.jetbrains.com'. You may need to add 'www.jetbrains.com' to ALLOWED_HOSTS.
+Bad Request: /www.jetbrains.com:443
+"CONNECT www.jetbrains.com:443 HTTP/1.1" 400 77275
+Invalid HTTP_HOST header: 'www.jetbrains.com'. You may need to add 'www.jetbrains.com' to ALLOWED_HOSTS.
+Traceback (most recent call last):
+  File "D:\GB\HTML CSS\Django\hw1\venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "D:\GB\HTML CSS\Django\hw1\venv\Lib\site-packages\django\utils\deprecation.py", line 133, in __call__
+    response = self.process_request(request)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\GB\HTML CSS\Django\hw1\venv\Lib\site-packages\django\middleware\common.py", line 48, in process_request
+    host = request.get_host()
+           ^^^^^^^^^^^^^^^^^^
+  File "D:\GB\HTML CSS\Django\hw1\venv\Lib\site-packages\django\http\request.py", line 151, in get_host
+    raise DisallowedHost(msg)
+django.core.exceptions.DisallowedHost: Invalid HTTP_HOST header: 'www.jetbrains.com'. You may need to add 'www.jetbrains.com' to ALLOWED_HOSTS.
+Bad Request: /www.jetbrains.com:443
+"CONNECT www.jetbrains.com:443 HTTP/1.1" 400 77275
+Invalid HTTP_HOST header: 'www.jetbrains.com'. You may need to add 'www.jetbrains.com' to ALLOWED_HOSTS.
+Traceback (most recent call last):
+  File "D:\GB\HTML CSS\Django\hw1\venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "D:\GB\HTML CSS\Django\hw1\venv\Lib\site-packages\django\utils\deprecation.py", line 133, in __call__
+    response = self.process_request(request)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\GB\HTML CSS\Django\hw1\venv\Lib\site-packages\django\middleware\common.py", line 48, in process_request
+    host = request.get_host()
+           ^^^^^^^^^^^^^^^^^^
+  File "D:\GB\HTML CSS\Django\hw1\venv\Lib\site-packages\django\http\request.py", line 151, in get_host
+    raise DisallowedHost(msg)
+django.core.exceptions.DisallowedHost: Invalid HTTP_HOST header: 'www.jetbrains.com'. You may need to add 'www.jetbrains.com' to ALLOWED_HOSTS.
+Bad Request: /www.jetbrains.com:443
+"CONNECT www.jetbrains.com:443 HTTP/1.1" 400 77275
+Invalid HTTP_HOST header: 'www.jetbrains.com'. You may need to add 'www.jetbrains.com' to ALLOWED_HOSTS.
+Traceback (most recent call last):
+  File "D:\GB\HTML CSS\Django\hw1\venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "D:\GB\HTML CSS\Django\hw1\venv\Lib\site-packages\django\utils\deprecation.py", line 133, in __call__
+    response = self.process_request(request)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\GB\HTML CSS\Django\hw1\venv\Lib\site-packages\django\middleware\common.py", line 48, in process_request
+    host = request.get_host()
+           ^^^^^^^^^^^^^^^^^^
+  File "D:\GB\HTML CSS\Django\hw1\venv\Lib\site-packages\django\http\request.py", line 151, in get_host
+    raise DisallowedHost(msg)
+django.core.exceptions.DisallowedHost: Invalid HTTP_HOST header: 'www.jetbrains.com'. You may need to add 'www.jetbrains.com' to ALLOWED_HOSTS.
+Bad Request: /www.jetbrains.com:443
+"CONNECT www.jetbrains.com:443 HTTP/1.1" 400 77275
+Invalid HTTP_HOST header: 'www.jetbrains.com'. You may need to add 'www.jetbrains.com' to ALLOWED_HOSTS.
+Traceback (most recent call last):
+  File "D:\GB\HTML CSS\Django\hw1\venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "D:\GB\HTML CSS\Django\hw1\venv\Lib\site-packages\django\utils\deprecation.py", line 133, in __call__
+    response = self.process_request(request)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\GB\HTML CSS\Django\hw1\venv\Lib\site-packages\django\middleware\common.py", line 48, in process_request
+    host = request.get_host()
+           ^^^^^^^^^^^^^^^^^^
+  File "D:\GB\HTML CSS\Django\hw1\venv\Lib\site-packages\django\http\request.py", line 151, in get_host
+    raise DisallowedHost(msg)
+django.core.exceptions.DisallowedHost: Invalid HTTP_HOST header: 'www.jetbrains.com'. You may need to add 'www.jetbrains.com' to ALLOWED_HOSTS.
+Bad Request: /www.jetbrains.com:443
+"CONNECT www.jetbrains.com:443 HTTP/1.1" 400 77276
+Invalid HTTP_HOST header: 'www.jetbrains.com'. You may need to add 'www.jetbrains.com' to ALLOWED_HOSTS.
+Traceback (most recent call last):
+  File "D:\GB\HTML CSS\Django\hw1\venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "D:\GB\HTML CSS\Django\hw1\venv\Lib\site-packages\django\utils\deprecation.py", line 133, in __call__
+    response = self.process_request(request)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\GB\HTML CSS\Django\hw1\venv\Lib\site-packages\django\middleware\common.py", line 48, in process_request
+    host = request.get_host()
+           ^^^^^^^^^^^^^^^^^^
+  File "D:\GB\HTML CSS\Django\hw1\venv\Lib\site-packages\django\http\request.py", line 151, in get_host
+    raise DisallowedHost(msg)
+django.core.exceptions.DisallowedHost: Invalid HTTP_HOST header: 'www.jetbrains.com'. You may need to add 'www.jetbrains.com' to ALLOWED_HOSTS.
+Bad Request: /www.jetbrains.com:443
+"CONNECT www.jetbrains.com:443 HTTP/1.1" 400 77276
+Invalid HTTP_HOST header: 'www.jetbrains.com'. You may need to add 'www.jetbrains.com' to ALLOWED_HOSTS.
+Traceback (most recent call last):
+  File "D:\GB\HTML CSS\Django\hw1\venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "D:\GB\HTML CSS\Django\hw1\venv\Lib\site-packages\django\utils\deprecation.py", line 133, in __call__
+    response = self.process_request(request)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\GB\HTML CSS\Django\hw1\venv\Lib\site-packages\django\middleware\common.py", line 48, in process_request
+    host = request.get_host()
+           ^^^^^^^^^^^^^^^^^^
+  File "D:\GB\HTML CSS\Django\hw1\venv\Lib\site-packages\django\http\request.py", line 151, in get_host
+    raise DisallowedHost(msg)
+django.core.exceptions.DisallowedHost: Invalid HTTP_HOST header: 'www.jetbrains.com'. You may need to add 'www.jetbrains.com' to ALLOWED_HOSTS.
+Bad Request: /www.jetbrains.com:443
+"CONNECT www.jetbrains.com:443 HTTP/1.1" 400 77276
+Invalid HTTP_HOST header: 'www.jetbrains.com'. You may need to add 'www.jetbrains.com' to ALLOWED_HOSTS.
+Traceback (most recent call last):
+  File "D:\GB\HTML CSS\Django\hw1\venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "D:\GB\HTML CSS\Django\hw1\venv\Lib\site-packages\django\utils\deprecation.py", line 133, in __call__
+    response = self.process_request(request)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\GB\HTML CSS\Django\hw1\venv\Lib\site-packages\django\middleware\common.py", line 48, in process_request
+    host = request.get_host()
+           ^^^^^^^^^^^^^^^^^^
+  File "D:\GB\HTML CSS\Django\hw1\venv\Lib\site-packages\django\http\request.py", line 151, in get_host
+    raise DisallowedHost(msg)
+django.core.exceptions.DisallowedHost: Invalid HTTP_HOST header: 'www.jetbrains.com'. You may need to add 'www.jetbrains.com' to ALLOWED_HOSTS.
+Invalid HTTP_HOST header: 'www.jetbrains.com'. You may need to add 'www.jetbrains.com' to ALLOWED_HOSTS.
+Traceback (most recent call last):
+  File "D:\GB\HTML CSS\Django\hw1\venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "D:\GB\HTML CSS\Django\hw1\venv\Lib\site-packages\django\utils\deprecation.py", line 133, in __call__
+    response = self.process_request(request)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\GB\HTML CSS\Django\hw1\venv\Lib\site-packages\django\middleware\common.py", line 48, in process_request
+    host = request.get_host()
+           ^^^^^^^^^^^^^^^^^^
+  File "D:\GB\HTML CSS\Django\hw1\venv\Lib\site-packages\django\http\request.py", line 151, in get_host
+    raise DisallowedHost(msg)
+django.core.exceptions.DisallowedHost: Invalid HTTP_HOST header: 'www.jetbrains.com'. You may need to add 'www.jetbrains.com' to ALLOWED_HOSTS.
+Bad Request: /www.jetbrains.com:443
+Bad Request: /www.jetbrains.com:443
+"CONNECT www.jetbrains.com:443 HTTP/1.1" 400 77276
+"CONNECT www.jetbrains.com:443 HTTP/1.1" 400 77276
+Invalid HTTP_HOST header: 'www.jetbrains.com'. You may need to add 'www.jetbrains.com' to ALLOWED_HOSTS.
+Traceback (most recent call last):
+  File "D:\GB\HTML CSS\Django\hw1\venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "D:\GB\HTML CSS\Django\hw1\venv\Lib\site-packages\django\utils\deprecation.py", line 133, in __call__
+    response = self.process_request(request)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\GB\HTML CSS\Django\hw1\venv\Lib\site-packages\django\middleware\common.py", line 48, in process_request
+    host = request.get_host()
+           ^^^^^^^^^^^^^^^^^^
+  File "D:\GB\HTML CSS\Django\hw1\venv\Lib\site-packages\django\http\request.py", line 151, in get_host
+    raise DisallowedHost(msg)
+django.core.exceptions.DisallowedHost: Invalid HTTP_HOST header: 'www.jetbrains.com'. You may need to add 'www.jetbrains.com' to ALLOWED_HOSTS.
+Invalid HTTP_HOST header: 'www.jetbrains.com'. You may need to add 'www.jetbrains.com' to ALLOWED_HOSTS.
+Traceback (most recent call last):
+  File "D:\GB\HTML CSS\Django\hw1\venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "D:\GB\HTML CSS\Django\hw1\venv\Lib\site-packages\django\utils\deprecation.py", line 133, in __call__
+    response = self.process_request(request)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\GB\HTML CSS\Django\hw1\venv\Lib\site-packages\django\middleware\common.py", line 48, in process_request
+    host = request.get_host()
+           ^^^^^^^^^^^^^^^^^^
+  File "D:\GB\HTML CSS\Django\hw1\venv\Lib\site-packages\django\http\request.py", line 151, in get_host
+    raise DisallowedHost(msg)
+django.core.exceptions.DisallowedHost: Invalid HTTP_HOST header: 'www.jetbrains.com'. You may need to add 'www.jetbrains.com' to ALLOWED_HOSTS.
+Bad Request: /www.jetbrains.com:443
+Bad Request: /www.jetbrains.com:443
+"CONNECT www.jetbrains.com:443 HTTP/1.1" 400 77276
+"CONNECT www.jetbrains.com:443 HTTP/1.1" 400 77276
+Invalid HTTP_HOST header: 'www.jetbrains.com'. You may need to add 'www.jetbrains.com' to ALLOWED_HOSTS.
+Traceback (most recent call last):
+  File "D:\GB\HTML CSS\Django\hw1\venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "D:\GB\HTML CSS\Django\hw1\venv\Lib\site-packages\django\utils\deprecation.py", line 133, in __call__
+    response = self.process_request(request)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\GB\HTML CSS\Django\hw1\venv\Lib\site-packages\django\middleware\common.py", line 48, in process_request
+    host = request.get_host()
+           ^^^^^^^^^^^^^^^^^^
+  File "D:\GB\HTML CSS\Django\hw1\venv\Lib\site-packages\django\http\request.py", line 151, in get_host
+    raise DisallowedHost(msg)
+django.core.exceptions.DisallowedHost: Invalid HTTP_HOST header: 'www.jetbrains.com'. You may need to add 'www.jetbrains.com' to ALLOWED_HOSTS.
+Invalid HTTP_HOST header: 'www.jetbrains.com'. You may need to add 'www.jetbrains.com' to ALLOWED_HOSTS.
+Traceback (most recent call last):
+  File "D:\GB\HTML CSS\Django\hw1\venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "D:\GB\HTML CSS\Django\hw1\venv\Lib\site-packages\django\utils\deprecation.py", line 133, in __call__
+    response = self.process_request(request)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\GB\HTML CSS\Django\hw1\venv\Lib\site-packages\django\middleware\common.py", line 48, in process_request
+    host = request.get_host()
+           ^^^^^^^^^^^^^^^^^^
+  File "D:\GB\HTML CSS\Django\hw1\venv\Lib\site-packages\django\http\request.py", line 151, in get_host
+    raise DisallowedHost(msg)
+django.core.exceptions.DisallowedHost: Invalid HTTP_HOST header: 'www.jetbrains.com'. You may need to add 'www.jetbrains.com' to ALLOWED_HOSTS.
+Bad Request: /www.jetbrains.com:443
+Bad Request: /www.jetbrains.com:443
+"CONNECT www.jetbrains.com:443 HTTP/1.1" 400 77276
+"CONNECT www.jetbrains.com:443 HTTP/1.1" 400 77276
+Invalid HTTP_HOST header: 'www.jetbrains.com'. You may need to add 'www.jetbrains.com' to ALLOWED_HOSTS.
+Traceback (most recent call last):
+  File "D:\GB\HTML CSS\Django\hw1\venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "D:\GB\HTML CSS\Django\hw1\venv\Lib\site-packages\django\utils\deprecation.py", line 133, in __call__
+    response = self.process_request(request)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\GB\HTML CSS\Django\hw1\venv\Lib\site-packages\django\middleware\common.py", line 48, in process_request
+    host = request.get_host()
+           ^^^^^^^^^^^^^^^^^^
+  File "D:\GB\HTML CSS\Django\hw1\venv\Lib\site-packages\django\http\request.py", line 151, in get_host
+    raise DisallowedHost(msg)
+django.core.exceptions.DisallowedHost: Invalid HTTP_HOST header: 'www.jetbrains.com'. You may need to add 'www.jetbrains.com' to ALLOWED_HOSTS.
+Bad Request: /www.jetbrains.com:443
+"CONNECT www.jetbrains.com:443 HTTP/1.1" 400 77275
+Invalid HTTP_HOST header: 'www.jetbrains.com'. You may need to add 'www.jetbrains.com' to ALLOWED_HOSTS.
+Traceback (most recent call last):
+  File "D:\GB\HTML CSS\Django\hw1\venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "D:\GB\HTML CSS\Django\hw1\venv\Lib\site-packages\django\utils\deprecation.py", line 133, in __call__
+    response = self.process_request(request)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\GB\HTML CSS\Django\hw1\venv\Lib\site-packages\django\middleware\common.py", line 48, in process_request
+    host = request.get_host()
+           ^^^^^^^^^^^^^^^^^^
+  File "D:\GB\HTML CSS\Django\hw1\venv\Lib\site-packages\django\http\request.py", line 151, in get_host
+    raise DisallowedHost(msg)
+django.core.exceptions.DisallowedHost: Invalid HTTP_HOST header: 'www.jetbrains.com'. You may need to add 'www.jetbrains.com' to ALLOWED_HOSTS.
+Invalid HTTP_HOST header: 'www.jetbrains.com'. You may need to add 'www.jetbrains.com' to ALLOWED_HOSTS.
+Traceback (most recent call last):
+  File "D:\GB\HTML CSS\Django\hw1\venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "D:\GB\HTML CSS\Django\hw1\venv\Lib\site-packages\django\utils\deprecation.py", line 133, in __call__
+    response = self.process_request(request)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\GB\HTML CSS\Django\hw1\venv\Lib\site-packages\django\middleware\common.py", line 48, in process_request
+    host = request.get_host()
+           ^^^^^^^^^^^^^^^^^^
+  File "D:\GB\HTML CSS\Django\hw1\venv\Lib\site-packages\django\http\request.py", line 151, in get_host
+    raise DisallowedHost(msg)
+django.core.exceptions.DisallowedHost: Invalid HTTP_HOST header: 'www.jetbrains.com'. You may need to add 'www.jetbrains.com' to ALLOWED_HOSTS.
+Invalid HTTP_HOST header: 'www.jetbrains.com'. You may need to add 'www.jetbrains.com' to ALLOWED_HOSTS.
+Traceback (most recent call last):
+  File "D:\GB\HTML CSS\Django\hw1\venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "D:\GB\HTML CSS\Django\hw1\venv\Lib\site-packages\django\utils\deprecation.py", line 133, in __call__
+    response = self.process_request(request)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\GB\HTML CSS\Django\hw1\venv\Lib\site-packages\django\middleware\common.py", line 48, in process_request
+    host = request.get_host()
+           ^^^^^^^^^^^^^^^^^^
+  File "D:\GB\HTML CSS\Django\hw1\venv\Lib\site-packages\django\http\request.py", line 151, in get_host
+    raise DisallowedHost(msg)
+django.core.exceptions.DisallowedHost: Invalid HTTP_HOST header: 'www.jetbrains.com'. You may need to add 'www.jetbrains.com' to ALLOWED_HOSTS.
+Bad Request: /www.jetbrains.com:443
+"CONNECT www.jetbrains.com:443 HTTP/1.1" 400 77276
+Bad Request: /www.jetbrains.com:443
+"CONNECT www.jetbrains.com:443 HTTP/1.1" 400 77276
+Invalid HTTP_HOST header: 'www.jetbrains.com'. You may need to add 'www.jetbrains.com' to ALLOWED_HOSTS.
+Traceback (most recent call last):
+  File "D:\GB\HTML CSS\Django\hw1\venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "D:\GB\HTML CSS\Django\hw1\venv\Lib\site-packages\django\utils\deprecation.py", line 133, in __call__
+    response = self.process_request(request)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\GB\HTML CSS\Django\hw1\venv\Lib\site-packages\django\middleware\common.py", line 48, in process_request
+    host = request.get_host()
+           ^^^^^^^^^^^^^^^^^^
+  File "D:\GB\HTML CSS\Django\hw1\venv\Lib\site-packages\django\http\request.py", line 151, in get_host
+    raise DisallowedHost(msg)
+django.core.exceptions.DisallowedHost: Invalid HTTP_HOST header: 'www.jetbrains.com'. You may need to add 'www.jetbrains.com' to ALLOWED_HOSTS.
+Bad Request: /www.jetbrains.com:443
+"CONNECT www.jetbrains.com:443 HTTP/1.1" 400 77276
+Bad Request: /www.jetbrains.com:443
+Invalid HTTP_HOST header: 'www.jetbrains.com'. You may need to add 'www.jetbrains.com' to ALLOWED_HOSTS.
+Traceback (most recent call last):
+  File "D:\GB\HTML CSS\Django\hw1\venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "D:\GB\HTML CSS\Django\hw1\venv\Lib\site-packages\django\utils\deprecation.py", line 133, in __call__
+    response = self.process_request(request)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\GB\HTML CSS\Django\hw1\venv\Lib\site-packages\django\middleware\common.py", line 48, in process_request
+    host = request.get_host()
+           ^^^^^^^^^^^^^^^^^^
+  File "D:\GB\HTML CSS\Django\hw1\venv\Lib\site-packages\django\http\request.py", line 151, in get_host
+    raise DisallowedHost(msg)
+django.core.exceptions.DisallowedHost: Invalid HTTP_HOST header: 'www.jetbrains.com'. You may need to add 'www.jetbrains.com' to ALLOWED_HOSTS.
+"CONNECT www.jetbrains.com:443 HTTP/1.1" 400 77275
+Invalid HTTP_HOST header: 'www.jetbrains.com'. You may need to add 'www.jetbrains.com' to ALLOWED_HOSTS.
+Traceback (most recent call last):
+  File "D:\GB\HTML CSS\Django\hw1\venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "D:\GB\HTML CSS\Django\hw1\venv\Lib\site-packages\django\utils\deprecation.py", line 133, in __call__
+    response = self.process_request(request)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\GB\HTML CSS\Django\hw1\venv\Lib\site-packages\django\middleware\common.py", line 48, in process_request
+    host = request.get_host()
+           ^^^^^^^^^^^^^^^^^^
+  File "D:\GB\HTML CSS\Django\hw1\venv\Lib\site-packages\django\http\request.py", line 151, in get_host
+    raise DisallowedHost(msg)
+django.core.exceptions.DisallowedHost: Invalid HTTP_HOST header: 'www.jetbrains.com'. You may need to add 'www.jetbrains.com' to ALLOWED_HOSTS.
+Bad Request: /www.jetbrains.com:443
+"CONNECT www.jetbrains.com:443 HTTP/1.1" 400 77276
+Bad Request: /www.jetbrains.com:443
+Invalid HTTP_HOST header: 'www.jetbrains.com'. You may need to add 'www.jetbrains.com' to ALLOWED_HOSTS.
+Traceback (most recent call last):
+  File "D:\GB\HTML CSS\Django\hw1\venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "D:\GB\HTML CSS\Django\hw1\venv\Lib\site-packages\django\utils\deprecation.py", line 133, in __call__
+    response = self.process_request(request)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\GB\HTML CSS\Django\hw1\venv\Lib\site-packages\django\middleware\common.py", line 48, in process_request
+    host = request.get_host()
+           ^^^^^^^^^^^^^^^^^^
+  File "D:\GB\HTML CSS\Django\hw1\venv\Lib\site-packages\django\http\request.py", line 151, in get_host
+    raise DisallowedHost(msg)
+django.core.exceptions.DisallowedHost: Invalid HTTP_HOST header: 'www.jetbrains.com'. You may need to add 'www.jetbrains.com' to ALLOWED_HOSTS.
+"CONNECT www.jetbrains.com:443 HTTP/1.1" 400 77276
+Invalid HTTP_HOST header: 'www.jetbrains.com'. You may need to add 'www.jetbrains.com' to ALLOWED_HOSTS.
+Traceback (most recent call last):
+  File "D:\GB\HTML CSS\Django\hw1\venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "D:\GB\HTML CSS\Django\hw1\venv\Lib\site-packages\django\utils\deprecation.py", line 133, in __call__
+    response = self.process_request(request)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\GB\HTML CSS\Django\hw1\venv\Lib\site-packages\django\middleware\common.py", line 48, in process_request
+    host = request.get_host()
+           ^^^^^^^^^^^^^^^^^^
+  File "D:\GB\HTML CSS\Django\hw1\venv\Lib\site-packages\django\http\request.py", line 151, in get_host
+    raise DisallowedHost(msg)
+django.core.exceptions.DisallowedHost: Invalid HTTP_HOST header: 'www.jetbrains.com'. You may need to add 'www.jetbrains.com' to ALLOWED_HOSTS.
+Bad Request: /www.jetbrains.com:443
+"CONNECT www.jetbrains.com:443 HTTP/1.1" 400 77276
+Bad Request: /www.jetbrains.com:443
+Invalid HTTP_HOST header: 'www.jetbrains.com'. You may need to add 'www.jetbrains.com' to ALLOWED_HOSTS.
+Traceback (most recent call last):
+  File "D:\GB\HTML CSS\Django\hw1\venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "D:\GB\HTML CSS\Django\hw1\venv\Lib\site-packages\django\utils\deprecation.py", line 133, in __call__
+    response = self.process_request(request)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\GB\HTML CSS\Django\hw1\venv\Lib\site-packages\django\middleware\common.py", line 48, in process_request
+    host = request.get_host()
+           ^^^^^^^^^^^^^^^^^^
+  File "D:\GB\HTML CSS\Django\hw1\venv\Lib\site-packages\django\http\request.py", line 151, in get_host
+    raise DisallowedHost(msg)
+django.core.exceptions.DisallowedHost: Invalid HTTP_HOST header: 'www.jetbrains.com'. You may need to add 'www.jetbrains.com' to ALLOWED_HOSTS.
+"CONNECT www.jetbrains.com:443 HTTP/1.1" 400 77276
+Bad Request: /www.jetbrains.com:443
+"CONNECT www.jetbrains.com:443 HTTP/1.1" 400 77276
+Invalid HTTP_HOST header: 'plugins.jetbrains.com'. You may need to add 'plugins.jetbrains.com' to ALLOWED_HOSTS.
+Traceback (most recent call last):
+  File "D:\GB\HTML CSS\Django\hw1\venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "D:\GB\HTML CSS\Django\hw1\venv\Lib\site-packages\django\utils\deprecation.py", line 133, in __call__
+    response = self.process_request(request)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\GB\HTML CSS\Django\hw1\venv\Lib\site-packages\django\middleware\common.py", line 48, in process_request
+    host = request.get_host()
+           ^^^^^^^^^^^^^^^^^^
+  File "D:\GB\HTML CSS\Django\hw1\venv\Lib\site-packages\django\http\request.py", line 151, in get_host
+    raise DisallowedHost(msg)
+django.core.exceptions.DisallowedHost: Invalid HTTP_HOST header: 'plugins.jetbrains.com'. You may need to add 'plugins.jetbrains.com' to ALLOWED_HOSTS.
+Bad Request: /plugins.jetbrains.com:443
+"CONNECT plugins.jetbrains.com:443 HTTP/1.1" 400 77383
+Invalid HTTP_HOST header: 'plugins.jetbrains.com'. You may need to add 'plugins.jetbrains.com' to ALLOWED_HOSTS.
+Traceback (most recent call last):
+  File "D:\GB\HTML CSS\Django\hw1\venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "D:\GB\HTML CSS\Django\hw1\venv\Lib\site-packages\django\utils\deprecation.py", line 133, in __call__
+    response = self.process_request(request)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\GB\HTML CSS\Django\hw1\venv\Lib\site-packages\django\middleware\common.py", line 48, in process_request
+    host = request.get_host()
+           ^^^^^^^^^^^^^^^^^^
+  File "D:\GB\HTML CSS\Django\hw1\venv\Lib\site-packages\django\http\request.py", line 151, in get_host
+    raise DisallowedHost(msg)
+django.core.exceptions.DisallowedHost: Invalid HTTP_HOST header: 'plugins.jetbrains.com'. You may need to add 'plugins.jetbrains.com' to ALLOWED_HOSTS.
+Bad Request: /plugins.jetbrains.com:443
+"CONNECT plugins.jetbrains.com:443 HTTP/1.1" 400 77383
+Invalid HTTP_HOST header: 'plugins.jetbrains.com'. You may need to add 'plugins.jetbrains.com' to ALLOWED_HOSTS.
+Traceback (most recent call last):
+  File "D:\GB\HTML CSS\Django\hw1\venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "D:\GB\HTML CSS\Django\hw1\venv\Lib\site-packages\django\utils\deprecation.py", line 133, in __call__
+    response = self.process_request(request)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\GB\HTML CSS\Django\hw1\venv\Lib\site-packages\django\middleware\common.py", line 48, in process_request
+    host = request.get_host()
+           ^^^^^^^^^^^^^^^^^^
+  File "D:\GB\HTML CSS\Django\hw1\venv\Lib\site-packages\django\http\request.py", line 151, in get_host
+    raise DisallowedHost(msg)
+django.core.exceptions.DisallowedHost: Invalid HTTP_HOST header: 'plugins.jetbrains.com'. You may need to add 'plugins.jetbrains.com' to ALLOWED_HOSTS.
+Bad Request: /plugins.jetbrains.com:443
+"CONNECT plugins.jetbrains.com:443 HTTP/1.1" 400 77383
+Invalid HTTP_HOST header: 'plugins.jetbrains.com'. You may need to add 'plugins.jetbrains.com' to ALLOWED_HOSTS.
+Traceback (most recent call last):
+  File "D:\GB\HTML CSS\Django\hw1\venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "D:\GB\HTML CSS\Django\hw1\venv\Lib\site-packages\django\utils\deprecation.py", line 133, in __call__
+    response = self.process_request(request)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\GB\HTML CSS\Django\hw1\venv\Lib\site-packages\django\middleware\common.py", line 48, in process_request
+    host = request.get_host()
+           ^^^^^^^^^^^^^^^^^^
+  File "D:\GB\HTML CSS\Django\hw1\venv\Lib\site-packages\django\http\request.py", line 151, in get_host
+    raise DisallowedHost(msg)
+django.core.exceptions.DisallowedHost: Invalid HTTP_HOST header: 'plugins.jetbrains.com'. You may need to add 'plugins.jetbrains.com' to ALLOWED_HOSTS.
+Bad Request: /plugins.jetbrains.com:443
+"CONNECT plugins.jetbrains.com:443 HTTP/1.1" 400 77383
+Invalid HTTP_HOST header: 'plugins.jetbrains.com'. You may need to add 'plugins.jetbrains.com' to ALLOWED_HOSTS.
+Traceback (most recent call last):
+  File "D:\GB\HTML CSS\Django\hw1\venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "D:\GB\HTML CSS\Django\hw1\venv\Lib\site-packages\django\utils\deprecation.py", line 133, in __call__
+    response = self.process_request(request)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\GB\HTML CSS\Django\hw1\venv\Lib\site-packages\django\middleware\common.py", line 48, in process_request
+    host = request.get_host()
+           ^^^^^^^^^^^^^^^^^^
+  File "D:\GB\HTML CSS\Django\hw1\venv\Lib\site-packages\django\http\request.py", line 151, in get_host
+    raise DisallowedHost(msg)
+django.core.exceptions.DisallowedHost: Invalid HTTP_HOST header: 'plugins.jetbrains.com'. You may need to add 'plugins.jetbrains.com' to ALLOWED_HOSTS.
+Bad Request: /plugins.jetbrains.com:443
+"CONNECT plugins.jetbrains.com:443 HTTP/1.1" 400 77383
+Invalid HTTP_HOST header: 'plugins.jetbrains.com'. You may need to add 'plugins.jetbrains.com' to ALLOWED_HOSTS.
+Traceback (most recent call last):
+  File "D:\GB\HTML CSS\Django\hw1\venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "D:\GB\HTML CSS\Django\hw1\venv\Lib\site-packages\django\utils\deprecation.py", line 133, in __call__
+    response = self.process_request(request)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\GB\HTML CSS\Django\hw1\venv\Lib\site-packages\django\middleware\common.py", line 48, in process_request
+    host = request.get_host()
+           ^^^^^^^^^^^^^^^^^^
+  File "D:\GB\HTML CSS\Django\hw1\venv\Lib\site-packages\django\http\request.py", line 151, in get_host
+    raise DisallowedHost(msg)
+django.core.exceptions.DisallowedHost: Invalid HTTP_HOST header: 'plugins.jetbrains.com'. You may need to add 'plugins.jetbrains.com' to ALLOWED_HOSTS.
+Bad Request: /plugins.jetbrains.com:443
+"CONNECT plugins.jetbrains.com:443 HTTP/1.1" 400 77383
+Invalid HTTP_HOST header: 'plugins.jetbrains.com'. You may need to add 'plugins.jetbrains.com' to ALLOWED_HOSTS.
+Traceback (most recent call last):
+  File "D:\GB\HTML CSS\Django\hw1\venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "D:\GB\HTML CSS\Django\hw1\venv\Lib\site-packages\django\utils\deprecation.py", line 133, in __call__
+    response = self.process_request(request)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\GB\HTML CSS\Django\hw1\venv\Lib\site-packages\django\middleware\common.py", line 48, in process_request
+    host = request.get_host()
+           ^^^^^^^^^^^^^^^^^^
+  File "D:\GB\HTML CSS\Django\hw1\venv\Lib\site-packages\django\http\request.py", line 151, in get_host
+    raise DisallowedHost(msg)
+django.core.exceptions.DisallowedHost: Invalid HTTP_HOST header: 'plugins.jetbrains.com'. You may need to add 'plugins.jetbrains.com' to ALLOWED_HOSTS.
+Bad Request: /plugins.jetbrains.com:443
+"CONNECT plugins.jetbrains.com:443 HTTP/1.1" 400 77383
+Invalid HTTP_HOST header: 'plugins.jetbrains.com'. You may need to add 'plugins.jetbrains.com' to ALLOWED_HOSTS.
+Traceback (most recent call last):
+  File "D:\GB\HTML CSS\Django\hw1\venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "D:\GB\HTML CSS\Django\hw1\venv\Lib\site-packages\django\utils\deprecation.py", line 133, in __call__
+    response = self.process_request(request)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\GB\HTML CSS\Django\hw1\venv\Lib\site-packages\django\middleware\common.py", line 48, in process_request
+    host = request.get_host()
+           ^^^^^^^^^^^^^^^^^^
+  File "D:\GB\HTML CSS\Django\hw1\venv\Lib\site-packages\django\http\request.py", line 151, in get_host
+    raise DisallowedHost(msg)
+django.core.exceptions.DisallowedHost: Invalid HTTP_HOST header: 'plugins.jetbrains.com'. You may need to add 'plugins.jetbrains.com' to ALLOWED_HOSTS.
+Bad Request: /plugins.jetbrains.com:443
+"CONNECT plugins.jetbrains.com:443 HTTP/1.1" 400 77383
+D:\GB\HTML CSS\Django\hw1\hw1\settings.py changed, reloading.
+Watching for file changes with StatReloader

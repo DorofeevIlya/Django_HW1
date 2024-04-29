@@ -22,12 +22,24 @@ BASE_DIR = Path(__file__).resolve().parent.parent
 # SECURITY WARNING: keep the secret key used in production secret!
 SECRET_KEY = 'django-insecure-v@tp$xk5$-4-$iz@xi9p9!i9fn=!o9ljm18y0_b0s6b2!_lnv3'
 
+import os
+
+SECRET_KEY = os.getenv('SECRET_KEY')
+
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = True
+DEBUG = False
 
 ALLOWED_HOSTS = [
     '127.0.0.1',
-    '192.168.0.249'
+    'dorofey09.pythonanywhere.com'
+]
+
+SESSION_COOKIE_SECURE = True
+CSRF_COOKIE_SECURE = True
+STATIC_ROOT = BASE_DIR / 'static/'
+
+INTERNAL_IPS = [
+    '127.0.0.1',
 ]
 
 MEDIA_URL = '/media/'
@@ -42,10 +54,12 @@ INSTALLED_APPS = [
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
-    'hw1app'
+    'hw1app',
+    'debug_toolbar',
 ]
 
 MIDDLEWARE = [
+    'debug_toolbar.middleware.DebugToolbarMiddleware',
     'django.middleware.security.SecurityMiddleware',
     'django.contrib.sessions.middleware.SessionMiddleware',
     'django.middleware.common.CommonMiddleware',
@@ -81,8 +95,14 @@ WSGI_APPLICATION = 'hw1.wsgi.application'
 
 DATABASES = {
     'default': {
-        'ENGINE': 'django.db.backends.sqlite3',
-        'NAME': BASE_DIR / 'db.sqlite3',
+        'ENGINE': 'django.db.backends.mysql',
+        'NAME': 'dorofey09$default',
+        'USER': 'dorofey09',
+        'PASSWORD': os.getenv('MYSQL_PASSWORD'),
+        'HOST': 'dorofey09.mysql.pythonanywhere-services.com',
+        'OPTIONS': {
+            'init_command': "SET NAMES 'utf8mb4';SET sql_mode='STRICT_TRANS_TABLES'", 'charset': 'utf8mb4',
+        }
     }
 }
 
